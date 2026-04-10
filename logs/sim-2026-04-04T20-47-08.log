@@ -1,0 +1,116 @@
+{"ts":"2026-04-04T20:47:08.862Z","level":"INFO","device":"868120018681","event":"CONNECTED","detail":"id:868120018681"}
+{"ts":"2026-04-04T20:47:09.095Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:47:09.096Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0102 result=OK"}
+{"ts":"2026-04-04T20:47:28.689Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:47:28.874Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:47:28.875Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:47:31.640Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:47:31.640Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:47:31.641Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 2"}
+{"ts":"2026-04-04T20:47:31.641Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:47:31.851Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping real video frames..."}
+{"ts":"2026-04-04T20:47:48.689Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:47:48.875Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:47:48.875Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:47:57.549Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:47:57.550Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:47:57.550Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-04T20:47:57.553Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:47:57.554Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:47:57.555Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:48:08.689Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:48:08.873Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:48:08.873Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:48:19.323Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:48:19.324Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:48:19.324Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 2"}
+{"ts":"2026-04-04T20:48:19.324Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:48:19.516Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping real video frames..."}
+{"ts":"2026-04-04T20:48:19.870Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:48:19.870Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:48:19.870Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-04T20:48:19.871Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:48:19.871Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:48:19.871Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:48:28.697Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:48:28.883Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:48:28.883Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:48:48.717Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:48:48.903Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:48:48.904Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:48:49.755Z","level":"ERROR","device":"300000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-04T20:49:08.717Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:49:08.903Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:49:08.903Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:49:09.381Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:49:09.381Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:49:09.381Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 2"}
+{"ts":"2026-04-04T20:49:09.381Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:49:09.592Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping real video frames..."}
+{"ts":"2026-04-04T20:49:13.798Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-04T20:49:13.798Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-04T20:49:13.798Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 2"}
+{"ts":"2026-04-04T20:49:13.799Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:49:13.799Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:49:13.799Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CLOSED","detail":"Stream ended."}
+{"ts":"2026-04-04T20:49:28.732Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:49:28.919Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:49:28.919Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:49:48.753Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:49:48.937Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:49:48.938Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:50:08.727Z","level":"INFO","device":"868120018681","event":"INCIDENT_SENT","detail":"mediaId=1 alarmId=86812001868100260404205008010200"}
+{"ts":"2026-04-04T20:50:08.753Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:50:08.915Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:50:08.915Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:50:09.223Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9208 bodyLen=81"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"9208_RAW","detail":"0C35342E33372E3232352E36350D3C000086812001868100260404205008010200383638313230303138363831303032363034303432303530303830313032303000000000000000000000000000000000"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"UPLOAD_TRIGGERED","detail":"media: 54.37.225.65:3388 | alarmId: 86812001868100260404205008010200"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"MEDIA_CONNECTING","detail":"54.37.225.65:3388 files=2"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0800 result=OK"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:50:09.224Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:50:09.430Z","level":"INFO","device":"868120018681","event":"MEDIA_CONNECTED","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-04T20:50:09.431Z","level":"INFO","device":"868120018681","event":"FILE_START","detail":"[1/2] 00_64_6401_00_86812001868100260404205008010200.jpg (215 bytes)"}
+{"ts":"2026-04-04T20:50:09.431Z","level":"INFO","device":"868120018681","event":"SENT_1210","detail":"00_64_6401_00_86812001868100260404205008010200.jpg"}
+{"ts":"2026-04-04T20:50:09.532Z","level":"INFO","device":"868120018681","event":"SENT_RAW_MARKER","detail":"00_64_6401_00_86812001868100260404205008010200.jpg packet=277 bytes data=215 bytes"}
+{"ts":"2026-04-04T20:50:09.535Z","level":"INFO","device":"868120018681","event":"SENT_1212","detail":"00_64_6401_00_86812001868100260404205008010200.jpg type=0"}
+{"ts":"2026-04-04T20:50:09.636Z","level":"INFO","device":"868120018681","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 01 86 81 06 3D 00 00 12 10 00 9C 7E"}
+{"ts":"2026-04-04T20:50:09.835Z","level":"INFO","device":"868120018681","event":"MEDIA_RX","detail":"7E 92 12 00 36 86 81 20 01 86 81 86 6A 32 30 30 5F 36 34 5F 36 34 30 31 5F 30 30 5F 38 36 38 31 32 30 30 31 38 36 38 31 30 30 32 36 30 34 30 34 32 30 35 30 30 38 30 31 30 32 30 30 2E 6A 70 67 00 00 00 10 7E"}
+{"ts":"2026-04-04T20:50:09.836Z","level":"INFO","device":"868120018681","event":"FILE_START","detail":"[2/2] 02_64_6401_03_86812001868100260404205008010200.mp4 (65536 bytes)"}
+{"ts":"2026-04-04T20:50:09.836Z","level":"INFO","device":"868120018681","event":"SENT_1210","detail":"02_64_6401_03_86812001868100260404205008010200.mp4"}
+{"ts":"2026-04-04T20:50:09.937Z","level":"INFO","device":"868120018681","event":"SENT_RAW_MARKER","detail":"02_64_6401_03_86812001868100260404205008010200.mp4 packet=65598 bytes data=65536 bytes"}
+{"ts":"2026-04-04T20:50:09.937Z","level":"INFO","device":"868120018681","event":"SENT_1212","detail":"02_64_6401_03_86812001868100260404205008010200.mp4 type=2"}
+{"ts":"2026-04-04T20:50:10.040Z","level":"INFO","device":"868120018681","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 01 86 81 C1 A9 00 02 12 10 00 CD 7E"}
+{"ts":"2026-04-04T20:50:10.238Z","level":"INFO","device":"868120018681","event":"BATCH_COMPLETE","detail":"All 2 files sent"}
+{"ts":"2026-04-04T20:50:10.643Z","level":"ERROR","device":"868120018681","event":"MEDIA_ERROR","detail":"54.37.225.65:3388 — read ECONNRESET"}
+{"ts":"2026-04-04T20:50:10.643Z","level":"INFO","device":"868120018681","event":"MEDIA_CLOSED","detail":""}
+{"ts":"2026-04-04T20:50:28.771Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:50:28.956Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:50:28.957Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:50:48.791Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:50:48.978Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:50:48.978Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:51:08.791Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:51:08.979Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:51:08.979Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:51:28.811Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:51:28.996Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:51:28.996Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:51:48.832Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-04T20:51:49.018Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-04T20:51:49.018Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-04T20:51:54.497Z","level":"INFO","device":"868120018681","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-04T20:51:54.498Z","level":"INFO","device":"300000000001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 288s
+[SUMMARY] GPS packets sent: 14
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] DTC faults sent: 0
+[SUMMARY] Incidents fired: 1
+[SUMMARY] Videos uploaded OK: 1
+[SUMMARY] Videos failed: 1
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-04T20-47-08.log

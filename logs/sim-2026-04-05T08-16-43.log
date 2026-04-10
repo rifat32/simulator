@@ -1,0 +1,541 @@
+{"ts":"2026-04-05T08:16:43.294Z","level":"INFO","device":"868120018681","event":"CONNECTED","detail":"id:868120018681"}
+{"ts":"2026-04-05T08:16:43.298Z","level":"INFO","device":"200000000001","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-05T08:16:43.428Z","level":"INFO","device":"200000000002","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-05T08:16:43.455Z","level":"INFO","device":"868120100002","event":"CONNECTED","detail":"id:868120100002"}
+{"ts":"2026-04-05T08:16:43.522Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-05T08:16:43.573Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:16:43.575Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0102 result=OK"}
+{"ts":"2026-04-05T08:16:43.621Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-05T08:16:43.697Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:16:43.697Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0102 result=OK"}
+{"ts":"2026-04-05T08:16:44.006Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:16:44.116Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:16:58.101Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736701, Lng: 0.470335 | Speed: 42km/h | RPM: 2463"}
+{"ts":"2026-04-05T08:16:58.240Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736615, Lng: 0.470050 | Speed: 35km/h | RPM: 2218"}
+{"ts":"2026-04-05T08:16:58.309Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:16:58.426Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:03.099Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:03.239Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:03.301Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:03.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:03.452Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:03.452Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:13.102Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:17:13.103Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737346, Lng: 0.472777 | Speed: 42km/h | RPM: 2461"}
+{"ts":"2026-04-05T08:17:13.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:17:13.240Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737212, Lng: 0.472223 | Speed: 37km/h | RPM: 2297"}
+{"ts":"2026-04-05T08:17:13.304Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:13.426Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:13.625Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:13.733Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:18.116Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:17:18.117Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:17:18.117Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:17:18.117Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:17:18.317Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:17:18.317Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:17:18.317Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:17:18.318Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:17:18.511Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping video for CH1..."}
+{"ts":"2026-04-05T08:17:23.096Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:23.239Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:23.298Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:23.298Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:23.452Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:23.452Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:28.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737744, Lng: 0.475355 | Speed: 46km/h | RPM: 2629"}
+{"ts":"2026-04-05T08:17:28.240Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737641, Lng: 0.474528 | Speed: 41km/h | RPM: 2436"}
+{"ts":"2026-04-05T08:17:28.307Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:28.427Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:43.096Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:43.102Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:17:43.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737629, Lng: 0.478085 | Speed: 46km/h | RPM: 2641"}
+{"ts":"2026-04-05T08:17:43.238Z","level":"INFO","device":"868120100002","event":"INCIDENT_SENT","detail":"mediaId=1 alarmId=86812010000200260405081743010200"}
+{"ts":"2026-04-05T08:17:43.238Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:17:43.241Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:17:43.241Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737781, Lng: 0.476826 | Speed: 39km/h | RPM: 2349"}
+{"ts":"2026-04-05T08:17:43.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:43.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:43.309Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:43.424Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:43.450Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:43.450Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:43.644Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:43.753Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:43.811Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x9208 bodyLen=81"}
+{"ts":"2026-04-05T08:17:43.811Z","level":"INFO","device":"868120100002","event":"9208_RAW","detail":"0C35342E33372E3232352E36350D3C000086812010000200260405081743010200383638313230313030303032303032363034303530383137343330313032303000000000000000000000000000000000"}
+{"ts":"2026-04-05T08:17:43.811Z","level":"INFO","device":"868120100002","event":"UPLOAD_TRIGGERED","detail":"media: 54.37.225.65:3388 | alarmId: 86812010000200260405081743010200"}
+{"ts":"2026-04-05T08:17:43.811Z","level":"INFO","device":"868120100002","event":"MEDIA_CONNECTING","detail":"54.37.225.65:3388 files=2"}
+{"ts":"2026-04-05T08:17:43.812Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:43.812Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0800 result=OK"}
+{"ts":"2026-04-05T08:17:43.812Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:17:43.812Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:17:44.013Z","level":"INFO","device":"868120100002","event":"MEDIA_CONNECTED","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:17:44.013Z","level":"INFO","device":"868120100002","event":"FILE_START","detail":"[1/2] 00_64_6401_00_86812010000200260405081743010200.jpg (215 bytes)"}
+{"ts":"2026-04-05T08:17:44.013Z","level":"INFO","device":"868120100002","event":"SENT_1210","detail":"00_64_6401_00_86812010000200260405081743010200.jpg"}
+{"ts":"2026-04-05T08:17:44.114Z","level":"INFO","device":"868120100002","event":"SENT_RAW_MARKER","detail":"00_64_6401_00_86812010000200260405081743010200.jpg packet=277 bytes data=215 bytes"}
+{"ts":"2026-04-05T08:17:44.116Z","level":"INFO","device":"868120100002","event":"SENT_1212","detail":"00_64_6401_00_86812010000200260405081743010200.jpg type=0"}
+{"ts":"2026-04-05T08:17:44.217Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 10 00 02 3D 60 00 00 12 10 00 EE 7E"}
+{"ts":"2026-04-05T08:17:44.415Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 92 12 00 36 86 81 20 10 00 02 9B A3 32 30 30 5F 36 34 5F 36 34 30 31 5F 30 30 5F 38 36 38 31 32 30 31 30 30 30 30 32 30 30 32 36 30 34 30 35 30 38 31 37 34 33 30 31 30 32 30 30 2E 6A 70 67 00 00 00 D2 7E"}
+{"ts":"2026-04-05T08:17:44.417Z","level":"INFO","device":"868120100002","event":"FILE_START","detail":"[2/2] 02_64_6401_03_86812010000200260405081743010200.mp4 (65536 bytes)"}
+{"ts":"2026-04-05T08:17:44.417Z","level":"INFO","device":"868120100002","event":"SENT_1210","detail":"02_64_6401_03_86812010000200260405081743010200.mp4"}
+{"ts":"2026-04-05T08:17:44.518Z","level":"INFO","device":"868120100002","event":"SENT_RAW_MARKER","detail":"02_64_6401_03_86812010000200260405081743010200.mp4 packet=65598 bytes data=65536 bytes"}
+{"ts":"2026-04-05T08:17:44.518Z","level":"INFO","device":"868120100002","event":"SENT_1212","detail":"02_64_6401_03_86812010000200260405081743010200.mp4 type=2"}
+{"ts":"2026-04-05T08:17:44.618Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 10 00 02 C8 EF 00 02 12 10 00 96 7E"}
+{"ts":"2026-04-05T08:17:44.819Z","level":"INFO","device":"868120100002","event":"BATCH_COMPLETE","detail":"All 2 files sent"}
+{"ts":"2026-04-05T08:17:45.224Z","level":"ERROR","device":"868120100002","event":"MEDIA_ERROR","detail":"54.37.225.65:3388 — read ECONNRESET"}
+{"ts":"2026-04-05T08:17:45.225Z","level":"INFO","device":"868120100002","event":"MEDIA_CLOSED","detail":""}
+{"ts":"2026-04-05T08:17:47.539Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:17:47.540Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:17:47.540Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:17:47.541Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:17:47.727Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping video for CH1..."}
+{"ts":"2026-04-05T08:17:47.740Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:17:47.740Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:17:47.740Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:17:47.741Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:17:47.951Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping video for CH1..."}
+{"ts":"2026-04-05T08:17:58.105Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736673, Lng: 0.480435 | Speed: 49km/h | RPM: 2773"}
+{"ts":"2026-04-05T08:17:58.243Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737282, Lng: 0.479294 | Speed: 42km/h | RPM: 2486"}
+{"ts":"2026-04-05T08:17:58.310Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:17:58.431Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:03.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:03.241Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:03.298Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:03.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:03.453Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:03.454Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:13.103Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:18:13.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.735292, Lng: 0.482092 | Speed: 48km/h | RPM: 2712"}
+{"ts":"2026-04-05T08:18:13.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:18:13.243Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736109, Lng: 0.481139 | Speed: 43km/h | RPM: 2523"}
+{"ts":"2026-04-05T08:18:13.306Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:13.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:13.620Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:13.727Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:23.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:23.242Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:23.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:23.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:23.454Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:23.455Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:24.157Z","level":"ERROR","device":"300000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:18:28.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733925, Lng: 0.484094 | Speed: 51km/h | RPM: 2848"}
+{"ts":"2026-04-05T08:18:28.243Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.734768, Lng: 0.482704 | Speed: 44km/h | RPM: 2567"}
+{"ts":"2026-04-05T08:18:28.308Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:28.433Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:36.282Z","level":"ERROR","device":"300000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:18:43.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:43.102Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:18:43.103Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733147, Lng: 0.486813 | Speed: 50km/h | RPM: 2807"}
+{"ts":"2026-04-05T08:18:43.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:18:43.241Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:18:43.242Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733691, Lng: 0.484631 | Speed: 46km/h | RPM: 2626"}
+{"ts":"2026-04-05T08:18:43.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:43.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:43.306Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:43.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:43.453Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:18:43.453Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:18:43.636Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:43.744Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:58.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.732307, Lng: 0.489482 | Speed: 49km/h | RPM: 2771"}
+{"ts":"2026-04-05T08:18:58.242Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733069, Lng: 0.487124 | Speed: 44km/h | RPM: 2567"}
+{"ts":"2026-04-05T08:18:58.311Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:18:58.431Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:03.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:03.243Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:03.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:03.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:03.455Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:03.455Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:13.103Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:19:13.105Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.731077, Lng: 0.491871 | Speed: 47km/h | RPM: 2681"}
+{"ts":"2026-04-05T08:19:13.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:19:13.242Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.732256, Lng: 0.489609 | Speed: 46km/h | RPM: 2659"}
+{"ts":"2026-04-05T08:19:13.307Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:13.426Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:13.620Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:13.759Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:23.098Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:23.244Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:23.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:23.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:23.457Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:23.457Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:28.105Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.729495, Lng: 0.493804 | Speed: 49km/h | RPM: 2764"}
+{"ts":"2026-04-05T08:19:28.245Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.730860, Lng: 0.492180 | Speed: 51km/h | RPM: 2839"}
+{"ts":"2026-04-05T08:19:28.308Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:28.431Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:43.098Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:43.104Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:19:43.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.727967, Lng: 0.494980 | Speed: 45km/h | RPM: 2585"}
+{"ts":"2026-04-05T08:19:43.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:19:43.244Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:19:43.246Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.729068, Lng: 0.494184 | Speed: 54km/h | RPM: 2978"}
+{"ts":"2026-04-05T08:19:43.300Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:43.300Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:43.311Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:43.426Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:43.458Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:19:43.458Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:19:43.633Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:43.741Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:58.105Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.726500, Lng: 0.495730 | Speed: 42km/h | RPM: 2471"}
+{"ts":"2026-04-05T08:19:58.247Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.726984, Lng: 0.495508 | Speed: 59km/h | RPM: 3143"}
+{"ts":"2026-04-05T08:19:58.310Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:19:58.433Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:03.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:03.245Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:03.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:03.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:03.457Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:03.457Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:13.104Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:20:13.104Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.724970, Lng: 0.496126 | Speed: 42km/h | RPM: 2460"}
+{"ts":"2026-04-05T08:20:13.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:20:13.248Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.724988, Lng: 0.496122 | Speed: 56km/h | RPM: 3031"}
+{"ts":"2026-04-05T08:20:13.306Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:13.427Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:13.636Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:13.744Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:23.098Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:23.244Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:23.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:23.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:23.458Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:23.458Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:28.105Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.723279, Lng: 0.496628 | Speed: 45km/h | RPM: 2619"}
+{"ts":"2026-04-05T08:20:28.247Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.722885, Lng: 0.496786 | Speed: 57km/h | RPM: 3062"}
+{"ts":"2026-04-05T08:20:28.313Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:28.436Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:43.098Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:43.103Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:20:43.106Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.721700, Lng: 0.497350 | Speed: 43km/h | RPM: 2536"}
+{"ts":"2026-04-05T08:20:43.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:20:43.244Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:20:43.248Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.720854, Lng: 0.497847 | Speed: 56km/h | RPM: 3033"}
+{"ts":"2026-04-05T08:20:43.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:43.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:43.308Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:43.426Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:43.456Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:20:43.457Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:20:43.644Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:43.752Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:58.106Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.719997, Lng: 0.498483 | Speed: 48km/h | RPM: 2704"}
+{"ts":"2026-04-05T08:20:58.248Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.718960, Lng: 0.499511 | Speed: 56km/h | RPM: 3039"}
+{"ts":"2026-04-05T08:20:58.311Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:20:58.434Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:03.098Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:03.245Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:03.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:03.303Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:03.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:03.461Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:13.104Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:21:13.108Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.718500, Lng: 0.500100 | Speed: 49km/h | RPM: 2762"}
+{"ts":"2026-04-05T08:21:13.239Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:21:13.248Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.717378, Lng: 0.502043 | Speed: 59km/h | RPM: 3172"}
+{"ts":"2026-04-05T08:21:13.309Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:13.428Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:13.651Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:13.759Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:23.097Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:23.246Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:23.299Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:23.299Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:23.457Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:23.457Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:28.110Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.717302, Lng: 0.502196 | Speed: 47km/h | RPM: 2670"}
+{"ts":"2026-04-05T08:21:28.248Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.716209, Lng: 0.504896 | Speed: 61km/h | RPM: 3224"}
+{"ts":"2026-04-05T08:21:28.313Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:28.435Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:43.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:43.104Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:21:43.109Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.716377, Lng: 0.504424 | Speed: 47km/h | RPM: 2694"}
+{"ts":"2026-04-05T08:21:43.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:21:43.245Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:21:43.250Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.715320, Lng: 0.507929 | Speed: 58km/h | RPM: 3115"}
+{"ts":"2026-04-05T08:21:43.278Z","level":"ERROR","device":"300000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:21:43.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:43.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:43.312Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:43.424Z","level":"ERROR","device":"300000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:21:43.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:43.458Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:21:43.458Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:21:43.637Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:43.744Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:58.110Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.715618, Lng: 0.506887 | Speed: 47km/h | RPM: 2680"}
+{"ts":"2026-04-05T08:21:58.250Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.714627, Lng: 0.511140 | Speed: 58km/h | RPM: 3139"}
+{"ts":"2026-04-05T08:21:58.311Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:21:58.437Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:03.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:03.246Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:03.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:03.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:03.458Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:03.458Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:13.105Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:22:13.110Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.715024, Lng: 0.509287 | Speed: 44km/h | RPM: 2548"}
+{"ts":"2026-04-05T08:22:13.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:22:13.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.714071, Lng: 0.514505 | Speed: 59km/h | RPM: 3155"}
+{"ts":"2026-04-05T08:22:13.312Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:13.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:13.650Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:13.758Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:23.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:23.246Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:23.301Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:23.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:23.458Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:23.459Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:28.110Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.714477, Lng: 0.511840 | Speed: 45km/h | RPM: 2587"}
+{"ts":"2026-04-05T08:22:28.250Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736476, Lng: 0.469587 | Speed: 58km/h | RPM: 3111"}
+{"ts":"2026-04-05T08:22:28.313Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:28.436Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:43.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:43.105Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:22:43.111Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.714102, Lng: 0.514283 | Speed: 43km/h | RPM: 2510"}
+{"ts":"2026-04-05T08:22:43.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:22:43.247Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:22:43.250Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737415, Lng: 0.473090 | Speed: 61km/h | RPM: 3221"}
+{"ts":"2026-04-05T08:22:43.304Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:43.304Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:43.309Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:43.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:43.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:22:43.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:22:43.631Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:43.708Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:58.112Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736196, Lng: 0.468759 | Speed: 46km/h | RPM: 2624"}
+{"ts":"2026-04-05T08:22:58.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737794, Lng: 0.476670 | Speed: 61km/h | RPM: 3251"}
+{"ts":"2026-04-05T08:22:58.314Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:22:58.435Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:03.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:03.247Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:03.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:03.303Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:03.459Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:03.459Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:13.105Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:23:13.112Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736952, Lng: 0.471227 | Speed: 50km/h | RPM: 2799"}
+{"ts":"2026-04-05T08:23:13.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:23:13.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736953, Lng: 0.480062 | Speed: 60km/h | RPM: 3217"}
+{"ts":"2026-04-05T08:23:13.312Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:13.428Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:13.639Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:13.747Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:23.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:23.248Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:23.301Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:23.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:23.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:23.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:28.111Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737587, Lng: 0.474123 | Speed: 52km/h | RPM: 2894"}
+{"ts":"2026-04-05T08:23:28.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.735279, Lng: 0.482107 | Speed: 58km/h | RPM: 3117"}
+{"ts":"2026-04-05T08:23:28.316Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:28.437Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:43.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:43.105Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:23:43.111Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737763, Lng: 0.477048 | Speed: 50km/h | RPM: 2803"}
+{"ts":"2026-04-05T08:23:43.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:23:43.247Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:23:43.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733689, Lng: 0.484638 | Speed: 63km/h | RPM: 3305"}
+{"ts":"2026-04-05T08:23:43.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:43.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:43.311Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:43.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:43.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:23:43.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:23:43.654Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:43.732Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:58.112Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737060, Lng: 0.479850 | Speed: 50km/h | RPM: 2782"}
+{"ts":"2026-04-05T08:23:58.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.732668, Lng: 0.488496 | Speed: 65km/h | RPM: 3402"}
+{"ts":"2026-04-05T08:23:58.315Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:23:58.436Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:03.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:03.248Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:03.302Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:03.302Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:03.459Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:03.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:13.106Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:24:13.113Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.735568, Lng: 0.481770 | Speed: 50km/h | RPM: 2796"}
+{"ts":"2026-04-05T08:24:13.240Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:24:13.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.731397, Lng: 0.491339 | Speed: 62km/h | RPM: 3286"}
+{"ts":"2026-04-05T08:24:13.308Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:13.425Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:13.632Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:13.709Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:23.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:23.247Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:23.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:23.303Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:23.459Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:23.459Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:28.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.734227, Lng: 0.483497 | Speed: 47km/h | RPM: 2664"}
+{"ts":"2026-04-05T08:24:28.249Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.729464, Lng: 0.493832 | Speed: 62km/h | RPM: 3286"}
+{"ts":"2026-04-05T08:24:28.317Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:28.436Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:43.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:43.106Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:24:43.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733325, Lng: 0.485975 | Speed: 49km/h | RPM: 2775"}
+{"ts":"2026-04-05T08:24:43.241Z","level":"INFO","device":"868120100002","event":"INCIDENT_SENT","detail":"mediaId=2 alarmId=86812010000200260405082443020200"}
+{"ts":"2026-04-05T08:24:43.242Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:24:43.247Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:24:43.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.727157, Lng: 0.495422 | Speed: 66km/h | RPM: 3436"}
+{"ts":"2026-04-05T08:24:43.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:43.305Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:43.310Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:43.427Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:43.454Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:43.454Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:43.644Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:43.721Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:43.779Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x9208 bodyLen=81"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"9208_RAW","detail":"0C35342E33372E3232352E36350D3C000086812010000200260405082443020200383638313230313030303032303032363034303530383234343330323032303000000000000000000000000000000000"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"UPLOAD_TRIGGERED","detail":"media: 54.37.225.65:3388 | alarmId: 86812010000200260405082443020200"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"MEDIA_CONNECTING","detail":"54.37.225.65:3388 files=2"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0800 result=OK"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:24:43.780Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:24:43.983Z","level":"INFO","device":"868120100002","event":"MEDIA_CONNECTED","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:24:43.983Z","level":"INFO","device":"868120100002","event":"FILE_START","detail":"[1/2] 00_64_6401_00_86812010000200260405082443020200.jpg (215 bytes)"}
+{"ts":"2026-04-05T08:24:43.983Z","level":"INFO","device":"868120100002","event":"SENT_1210","detail":"00_64_6401_00_86812010000200260405082443020200.jpg"}
+{"ts":"2026-04-05T08:24:44.083Z","level":"INFO","device":"868120100002","event":"SENT_RAW_MARKER","detail":"00_64_6401_00_86812010000200260405082443020200.jpg packet=277 bytes data=215 bytes"}
+{"ts":"2026-04-05T08:24:44.083Z","level":"INFO","device":"868120100002","event":"SENT_1212","detail":"00_64_6401_00_86812010000200260405082443020200.jpg type=0"}
+{"ts":"2026-04-05T08:24:44.190Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 10 00 02 59 4D 00 00 12 10 00 A7 7E"}
+{"ts":"2026-04-05T08:24:44.383Z","level":"INFO","device":"868120100002","event":"FILE_START","detail":"[2/2] 02_64_6401_03_86812010000200260405082443020200.mp4 (65536 bytes)"}
+{"ts":"2026-04-05T08:24:44.384Z","level":"INFO","device":"868120100002","event":"SENT_1210","detail":"02_64_6401_03_86812010000200260405082443020200.mp4"}
+{"ts":"2026-04-05T08:24:44.389Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 92 12 00 36 86 81 20 10 00 02 3E 04 32 30 30 5F 36 34 5F 36 34 30 31 5F 30 30 5F 38 36 38 31 32 30 31 30 30 30 30 32 30 30 32 36 30 34 30 35 30 38 32 34 34 33 30 32 30 32 30 30 2E 6A 70 67 00 00 00 D3 7E"}
+{"ts":"2026-04-05T08:24:44.483Z","level":"INFO","device":"868120100002","event":"SENT_RAW_MARKER","detail":"02_64_6401_03_86812010000200260405082443020200.mp4 packet=65598 bytes data=65536 bytes"}
+{"ts":"2026-04-05T08:24:44.484Z","level":"INFO","device":"868120100002","event":"SENT_1212","detail":"02_64_6401_03_86812010000200260405082443020200.mp4 type=2"}
+{"ts":"2026-04-05T08:24:44.685Z","level":"INFO","device":"868120100002","event":"MEDIA_RX","detail":"7E 80 01 00 05 86 81 20 10 00 02 0F AB 00 02 12 10 00 15 7E"}
+{"ts":"2026-04-05T08:24:44.784Z","level":"INFO","device":"868120100002","event":"BATCH_COMPLETE","detail":"All 2 files sent"}
+{"ts":"2026-04-05T08:24:45.191Z","level":"ERROR","device":"868120100002","event":"MEDIA_ERROR","detail":"54.37.225.65:3388 — read ECONNRESET"}
+{"ts":"2026-04-05T08:24:45.192Z","level":"INFO","device":"868120100002","event":"MEDIA_CLOSED","detail":""}
+{"ts":"2026-04-05T08:24:58.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.732380, Lng: 0.489300 | Speed: 51km/h | RPM: 2833"}
+{"ts":"2026-04-05T08:24:58.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.724895, Lng: 0.496141 | Speed: 63km/h | RPM: 3327"}
+{"ts":"2026-04-05T08:24:58.319Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:24:58.442Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:03.100Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:03.248Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:03.306Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:03.306Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:03.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:03.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:13.107Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:25:13.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.731137, Lng: 0.491772 | Speed: 49km/h | RPM: 2745"}
+{"ts":"2026-04-05T08:25:13.243Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:25:13.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.722434, Lng: 0.496983 | Speed: 66km/h | RPM: 3447"}
+{"ts":"2026-04-05T08:25:13.310Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:13.489Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:13.657Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:13.765Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:23.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:23.248Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:23.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:23.303Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:23.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:23.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:28.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.729745, Lng: 0.493524 | Speed: 44km/h | RPM: 2569"}
+{"ts":"2026-04-05T08:25:28.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.720161, Lng: 0.498351 | Speed: 64km/h | RPM: 3340"}
+{"ts":"2026-04-05T08:25:28.319Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:28.440Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:43.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:43.106Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:25:43.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.728059, Lng: 0.494925 | Speed: 48km/h | RPM: 2723"}
+{"ts":"2026-04-05T08:25:43.243Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:25:43.249Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:25:43.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.718184, Lng: 0.500574 | Speed: 66km/h | RPM: 3427"}
+{"ts":"2026-04-05T08:25:43.303Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:43.304Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:43.309Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:43.428Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:43.461Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:25:43.461Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:25:43.645Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:43.722Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:58.113Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.726412, Lng: 0.495756 | Speed: 47km/h | RPM: 2675"}
+{"ts":"2026-04-05T08:25:58.252Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.716586, Lng: 0.503840 | Speed: 69km/h | RPM: 3579"}
+{"ts":"2026-04-05T08:25:58.318Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:25:58.439Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:03.101Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:03.249Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:03.304Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:03.304Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:03.461Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:03.461Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:13.106Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:26:13.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.724737, Lng: 0.496173 | Speed: 45km/h | RPM: 2619"}
+{"ts":"2026-04-05T08:26:13.242Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:26:13.252Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.715421, Lng: 0.507576 | Speed: 71km/h | RPM: 3652"}
+{"ts":"2026-04-05T08:26:13.308Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:13.427Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:13.639Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:13.716Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:23.102Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:23.249Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:23.304Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:23.304Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:23.460Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:23.460Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:28.113Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.723180, Lng: 0.496668 | Speed: 42km/h | RPM: 2475"}
+{"ts":"2026-04-05T08:26:28.251Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.714519, Lng: 0.511646 | Speed: 74km/h | RPM: 3764"}
+{"ts":"2026-04-05T08:26:28.316Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:28.437Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:43.102Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:43.107Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:26:43.113Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.721624, Lng: 0.497388 | Speed: 43km/h | RPM: 2511"}
+{"ts":"2026-04-05T08:26:43.242Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-05T08:26:43.249Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:26:43.252Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.713911, Lng: 0.515621 | Speed: 70km/h | RPM: 3582"}
+{"ts":"2026-04-05T08:26:43.294Z","level":"ERROR","device":"300000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:26:43.305Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:43.305Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:43.312Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:43.427Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:43.450Z","level":"ERROR","device":"300000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-05T08:26:43.461Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:26:43.461Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:26:43.660Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:43.737Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:56.535Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:26:56.536Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:26:56.537Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:26:56.538Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:26:56.736Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x9101 bodyLen=20"}
+{"ts":"2026-04-05T08:26:56.737Z","level":"INFO","device":"868120018681","event":"SENT_ACK","detail":"0x0001 acknowledging Live Stream Request"}
+{"ts":"2026-04-05T08:26:56.738Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_REQ","detail":"Target: 54.37.225.65:3388 | Channel: 1"}
+{"ts":"2026-04-05T08:26:56.738Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTING","detail":"54.37.225.65:3388"}
+{"ts":"2026-04-05T08:26:56.952Z","level":"INFO","device":"868120018681","event":"LIVE_STREAM_CONNECTED","detail":"Pumping video for CH1..."}
+{"ts":"2026-04-05T08:26:58.114Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.720051, Lng: 0.498439 | Speed: 44km/h | RPM: 2558"}
+{"ts":"2026-04-05T08:26:58.253Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736926, Lng: 0.471131 | Speed: 71km/h | RPM: 3649"}
+{"ts":"2026-04-05T08:26:58.317Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:26:58.438Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-05T08:27:03.103Z","level":"INFO","device":"868120018681","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:27:03.249Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":""}
+{"ts":"2026-04-05T08:27:03.304Z","level":"INFO","device":"868120018681","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:27:03.305Z","level":"INFO","device":"868120018681","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:27:03.461Z","level":"INFO","device":"868120100002","event":"RX_MSG","detail":"0x8001 bodyLen=5"}
+{"ts":"2026-04-05T08:27:03.461Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x0200 result=OK"}
+{"ts":"2026-04-05T08:27:08.435Z","level":"INFO","device":"868120018681","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-05T08:27:08.436Z","level":"INFO","device":"200000000001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-05T08:27:08.436Z","level":"INFO","device":"300000000001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-05T08:27:08.436Z","level":"INFO","device":"868120100002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-05T08:27:08.437Z","level":"INFO","device":"200000000002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-05T08:27:08.437Z","level":"INFO","device":"300000000002","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 627s
+[SUMMARY] GPS packets sent: 144
+[SUMMARY] OBD2 packets sent: 82
+[SUMMARY] DTC faults sent: 0
+[SUMMARY] Incidents fired: 2
+[SUMMARY] Videos uploaded OK: 2
+[SUMMARY] Videos failed: 2
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-05T08-16-43.log

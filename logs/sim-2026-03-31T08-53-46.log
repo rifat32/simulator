@@ -1,0 +1,25 @@
+{"ts":"2026-03-31T08:53:46.506Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T08:53:46.530Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Image Upload) | Target URL: 54.37.225.65:3378"}
+{"ts":"2026-03-31T08:53:46.531Z","level":"ERROR","device":"868120100001","event":"MEDIA_UPLOAD_FAIL","detail":"No Alarm ID saved. Cannot generate filename."}
+{"ts":"2026-03-31T08:54:06.500Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:54:16.504Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331085416000200"}
+{"ts":"2026-03-31T08:54:26.500Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:54:46.505Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:54:46.507Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331085446000200"}
+{"ts":"2026-03-31T08:54:55.598Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignoring to focus on recorded files."}
+{"ts":"2026-03-31T08:55:06.512Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:55:16.511Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331085516000200"}
+{"ts":"2026-03-31T08:55:26.517Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:55:46.517Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331085546000200"}
+{"ts":"2026-03-31T08:55:46.518Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:55:57.281Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 133s
+[SUMMARY] GPS packets sent: 6
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 4
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T08-53-46.log

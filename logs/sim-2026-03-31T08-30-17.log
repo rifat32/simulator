@@ -1,0 +1,24 @@
+{"ts":"2026-03-31T08:30:17.116Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T08:30:17.136Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Alarm Attachment) | Target URL: 54.37.225.65:3378"}
+{"ts":"2026-03-31T08:30:37.113Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:30:47.113Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 1)"}
+{"ts":"2026-03-31T08:30:47.114Z","level":"INFO","device":"868120100001","event":"VIDEO_UPLOAD_START","detail":"Uploading 0x0801 Subcontracted Packets: 67 chunks"}
+{"ts":"2026-03-31T08:30:47.162Z","level":"INFO","device":"868120100001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% delivered to main port in 48ms"}
+{"ts":"2026-03-31T08:30:57.113Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:31:17.122Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 2)"}
+{"ts":"2026-03-31T08:31:17.123Z","level":"INFO","device":"868120100001","event":"VIDEO_UPLOAD_START","detail":"Uploading 0x0801 Subcontracted Packets: 67 chunks"}
+{"ts":"2026-03-31T08:31:17.124Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:31:17.150Z","level":"INFO","device":"868120100001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% delivered to main port in 28ms"}
+{"ts":"2026-03-31T08:31:20.337Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:31:37.127Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:31:46.157Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 91s
+[SUMMARY] GPS packets sent: 4
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 2
+[SUMMARY] Videos uploaded OK: 2
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T08-30-17.log

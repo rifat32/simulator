@@ -1,0 +1,34 @@
+{"ts":"2026-04-03T21:39:15.234Z","level":"INFO","device":"200000000001","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-03T21:39:15.252Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-03T21:39:15.761Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:20.220Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0171"}
+{"ts":"2026-04-03T21:39:20.237Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:25.220Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0420"}
+{"ts":"2026-04-03T21:39:25.237Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:30.220Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736651, Lng: 0.470169 | Speed: 38km/h | RPM: 2320"}
+{"ts":"2026-04-03T21:39:30.221Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0300"}
+{"ts":"2026-04-03T21:39:30.239Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:30.247Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:35.222Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0171"}
+{"ts":"2026-04-03T21:39:35.238Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:40.227Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0300"}
+{"ts":"2026-04-03T21:39:40.240Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:45.223Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-03T21:39:45.224Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737193, Lng: 0.472144 | Speed: 34km/h | RPM: 2157"}
+{"ts":"2026-04-03T21:39:45.226Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: C1234"}
+{"ts":"2026-04-03T21:39:45.232Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:45.240Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:45.247Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:50.227Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: C1234"}
+{"ts":"2026-04-03T21:39:50.243Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T21:39:54.050Z","level":"INFO","device":"200000000001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 41s
+[SUMMARY] GPS packets sent: 2
+[SUMMARY] OBD2 packets sent: 2
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-03T21-39-15.log

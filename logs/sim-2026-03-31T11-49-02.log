@@ -1,0 +1,18 @@
+{"ts":"2026-03-31T11:49:02.512Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T11:49:22.387Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:49:22.391Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331114922000200"}
+{"ts":"2026-03-31T11:49:42.388Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:49:42.389Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331114942000200"}
+{"ts":"2026-03-31T11:50:02.393Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:50:02.393Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331115002000200"}
+{"ts":"2026-03-31T11:50:12.763Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 72s
+[SUMMARY] GPS packets sent: 3
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 3
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T11-49-02.log

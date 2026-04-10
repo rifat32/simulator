@@ -1,0 +1,53 @@
+{"ts":"2026-03-31T08:41:49.080Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T08:41:49.102Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Image Upload) | Target URL: 54.37.225.65:3378"}
+{"ts":"2026-03-31T08:41:49.111Z","level":"INFO","device":"868120100001","event":"MEDIA_CONNECTED","detail":"Streaming raw JPEG bytes to 54.37.225.65:3378"}
+{"ts":"2026-03-31T08:41:49.135Z","level":"INFO","device":"868120100001","event":"MEDIA_UPLOAD_COMPLETE","detail":"Finished. Delivered to 3378 in 32ms"}
+{"ts":"2026-03-31T08:42:09.075Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:42:19.071Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 1)"}
+{"ts":"2026-03-31T08:42:29.076Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:42:49.074Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 2)"}
+{"ts":"2026-03-31T08:42:49.076Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:43:04.719Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:43:09.081Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:43:19.078Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 3)"}
+{"ts":"2026-03-31T08:43:25.518Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:43:29.082Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:43:49.081Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 4)"}
+{"ts":"2026-03-31T08:43:49.082Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:44:09.089Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:44:19.088Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 5)"}
+{"ts":"2026-03-31T08:44:29.093Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:44:49.092Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 6)"}
+{"ts":"2026-03-31T08:44:49.094Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:45:09.097Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:45:19.094Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 7)"}
+{"ts":"2026-03-31T08:45:29.102Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:45:44.404Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:45:49.097Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 8)"}
+{"ts":"2026-03-31T08:45:49.103Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:46:09.106Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:46:19.099Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 9)"}
+{"ts":"2026-03-31T08:46:23.660Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:46:29.110Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:46:49.104Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 10)"}
+{"ts":"2026-03-31T08:46:49.112Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:46:52.653Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignored for AI validation."}
+{"ts":"2026-03-31T08:47:09.115Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:47:19.110Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 11)"}
+{"ts":"2026-03-31T08:47:29.118Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:47:49.114Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 12)"}
+{"ts":"2026-03-31T08:47:49.120Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:48:09.122Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:48:19.119Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm (MediaID: 13)"}
+{"ts":"2026-03-31T08:48:29.197Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T08:48:31.607Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 405s
+[SUMMARY] GPS packets sent: 20
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 13
+[SUMMARY] Videos uploaded OK: 1
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T08-41-49.log

@@ -1,0 +1,18 @@
+{"ts":"2026-04-02T11:48:24.418Z","level":"ERROR","device":"868120018681","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T11:48:24.420Z","level":"INFO","device":"868120018681","event":"RECONNECTING","detail":"attempt 1, backoff 1224ms"}
+{"ts":"2026-04-02T11:48:25.658Z","level":"ERROR","device":"868120018681","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T11:48:25.659Z","level":"INFO","device":"868120018681","event":"RECONNECTING","detail":"attempt 2, backoff 2177ms"}
+{"ts":"2026-04-02T11:48:27.855Z","level":"ERROR","device":"868120018681","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T11:48:27.856Z","level":"INFO","device":"868120018681","event":"RECONNECTING","detail":"attempt 3, backoff 4525ms"}
+{"ts":"2026-04-02T11:48:32.390Z","level":"ERROR","device":"868120018681","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T11:48:32.390Z","level":"INFO","device":"868120018681","event":"RECONNECTING","detail":"attempt 4, backoff 8606ms"}
+
+[SUMMARY] Run duration: 13s
+[SUMMARY] GPS packets sent: 0
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-02T11-48-24.log

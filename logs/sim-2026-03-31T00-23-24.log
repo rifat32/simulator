@@ -1,0 +1,42 @@
+{"ts":"2026-03-31T00:23:24.914Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:23:25.028Z","level":"INFO","device":"868120100001","event":"MEDIA_SERVER_REQ","detail":"Server requested media via 0x9208 -> 54.37.225.65:3378"}
+{"ts":"2026-03-31T00:23:25.033Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:25.036Z","level":"INFO","device":"868120100001","event":"MEDIA_SERVER_CONNECTED","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T00:23:25.037Z","level":"INFO","device":"868120100001","event":"MEDIA_UPLOAD_COMPLETE","detail":"100% delivered to 3378 in 9ms"}
+{"ts":"2026-03-31T00:23:34.907Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 1)"}
+{"ts":"2026-03-31T00:23:34.942Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:34.948Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:41.546Z","level":"INFO","device":"868120100001","event":"MEDIA_SERVER_REQ","detail":"Server requested media via 0x9101 -> 54.37.225.65:3377"}
+{"ts":"2026-03-31T00:23:41.556Z","level":"ERROR","device":"868120100001","event":"MEDIA_SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-03-31T00:23:44.909Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:23:44.910Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 2)"}
+{"ts":"2026-03-31T00:23:44.917Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:44.924Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:44.930Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:54.914Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 3)"}
+{"ts":"2026-03-31T00:23:54.923Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:23:54.933Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:04.915Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:24:04.916Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 4)"}
+{"ts":"2026-03-31T00:24:04.924Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:04.932Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:04.937Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:14.918Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 5)"}
+{"ts":"2026-03-31T00:24:14.927Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:14.934Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:24.916Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:24:24.917Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 6)"}
+{"ts":"2026-03-31T00:24:24.926Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:24.933Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:24.938Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:24:26.505Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 64s
+[SUMMARY] GPS packets sent: 3
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 6
+[SUMMARY] Videos uploaded OK: 1
+[SUMMARY] Videos failed: 1
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T00-23-24.log

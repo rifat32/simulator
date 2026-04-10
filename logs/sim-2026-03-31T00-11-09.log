@@ -1,0 +1,71 @@
+{"ts":"2026-03-31T00:11:09.992Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:11:09.993Z","level":"INFO","device":"868120100001","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:11:10.014Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 00 01 02 00 B1 7E"}
+{"ts":"2026-03-31T00:11:10.014Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:10.137Z","level":"INFO","device":"868120100002","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:11:10.138Z","level":"INFO","device":"868120100002","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:11:10.149Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 00 01 02 00 B2 7E"}
+{"ts":"2026-03-31T00:11:10.149Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:10.290Z","level":"INFO","device":"868120100003","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:11:10.291Z","level":"INFO","device":"868120100003","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:11:10.309Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 00 01 02 00 B3 7E"}
+{"ts":"2026-03-31T00:11:10.310Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:19.982Z","level":"INFO","device":"868120100001","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 1"}
+{"ts":"2026-03-31T00:11:20.008Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 01 08 00 00 BB 7E"}
+{"ts":"2026-03-31T00:11:20.008Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:20.015Z","level":"ERROR","device":"868120100001","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:20.133Z","level":"INFO","device":"868120100002","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 1"}
+{"ts":"2026-03-31T00:11:20.157Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 01 08 00 00 B8 7E"}
+{"ts":"2026-03-31T00:11:20.158Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:20.159Z","level":"ERROR","device":"868120100002","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:20.283Z","level":"INFO","device":"868120100003","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 1"}
+{"ts":"2026-03-31T00:11:20.300Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 01 08 00 00 B9 7E"}
+{"ts":"2026-03-31T00:11:20.300Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:20.301Z","level":"ERROR","device":"868120100003","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:29.983Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"51.5928,-0.2343 @ 105km/h"}
+{"ts":"2026-03-31T00:11:29.984Z","level":"INFO","device":"868120100001","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 2"}
+{"ts":"2026-03-31T00:11:30.003Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 02 02 00 00 B2 7E"}
+{"ts":"2026-03-31T00:11:30.005Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:30.005Z","level":"ERROR","device":"868120100001","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:30.010Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 03 08 00 00 B9 7E"}
+{"ts":"2026-03-31T00:11:30.012Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:30.129Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"51.4917,-0.3038 @ 105km/h"}
+{"ts":"2026-03-31T00:11:30.134Z","level":"INFO","device":"868120100002","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 2"}
+{"ts":"2026-03-31T00:11:30.140Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 02 02 00 00 B1 7E"}
+{"ts":"2026-03-31T00:11:30.141Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:30.144Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 03 08 00 00 BA 7E"}
+{"ts":"2026-03-31T00:11:30.144Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:30.147Z","level":"ERROR","device":"868120100002","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:30.281Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"51.4080,-0.5446 @ 105km/h"}
+{"ts":"2026-03-31T00:11:30.282Z","level":"INFO","device":"868120100003","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 2"}
+{"ts":"2026-03-31T00:11:30.288Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 02 02 00 00 B0 7E"}
+{"ts":"2026-03-31T00:11:30.288Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:30.292Z","level":"ERROR","device":"868120100003","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:30.294Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 03 08 00 00 BB 7E"}
+{"ts":"2026-03-31T00:11:30.294Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:33.408Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 91 01 00 14 86 81 20 10 00 01 01 37 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 31 00 00 02 00 00 AB 7E"}
+{"ts":"2026-03-31T00:11:39.985Z","level":"INFO","device":"868120100001","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 3"}
+{"ts":"2026-03-31T00:11:40.091Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 04 08 00 00 BE 7E"}
+{"ts":"2026-03-31T00:11:40.091Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:40.094Z","level":"ERROR","device":"868120100001","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:40.136Z","level":"INFO","device":"868120100002","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 3"}
+{"ts":"2026-03-31T00:11:40.269Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 04 08 00 00 BD 7E"}
+{"ts":"2026-03-31T00:11:40.269Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:40.271Z","level":"ERROR","device":"868120100002","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:40.285Z","level":"INFO","device":"868120100003","event":"INCIDENT_0x0800_SENT","detail":"MediaID: 3"}
+{"ts":"2026-03-31T00:11:40.295Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 04 08 00 00 BC 7E"}
+{"ts":"2026-03-31T00:11:40.296Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:11:40.299Z","level":"ERROR","device":"868120100003","event":"VIDEO_UPLOAD_FAIL","detail":"connect ECONNREFUSED 54.37.225.65:8080"}
+{"ts":"2026-03-31T00:11:43.451Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:11:43.452Z","level":"INFO","device":"868120100002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:11:43.452Z","level":"INFO","device":"868120100003","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 35s
+[SUMMARY] GPS packets sent: 3
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 9
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 9
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T00-11-09.log

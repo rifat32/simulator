@@ -1,0 +1,29 @@
+{"ts":"2026-04-03T22:34:30.121Z","level":"INFO","device":"200000000001","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-03T22:34:30.132Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-03T22:34:30.639Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:34:40.111Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.736626, Lng: 0.470088 | Speed: 36km/h | RPM: 2251"}
+{"ts":"2026-04-03T22:34:40.127Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:34:50.111Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737157, Lng: 0.471996 | Speed: 33km/h | RPM: 2116"}
+{"ts":"2026-04-03T22:34:50.125Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:00.113Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-03T22:35:00.202Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737512, Lng: 0.473669 | Speed: 30km/h | RPM: 1987"}
+{"ts":"2026-04-03T22:35:00.203Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:00.232Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:10.204Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737756, Lng: 0.475544 | Speed: 32km/h | RPM: 2084"}
+{"ts":"2026-04-03T22:35:10.216Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:20.209Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737708, Lng: 0.477700 | Speed: 36km/h | RPM: 2228"}
+{"ts":"2026-04-03T22:35:20.221Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:30.116Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-03T22:35:30.127Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:30.211Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.737024, Lng: 0.479941 | Speed: 41km/h | RPM: 2421"}
+{"ts":"2026-04-03T22:35:30.221Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:40.216Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.735833, Lng: 0.481461 | Speed: 39km/h | RPM: 2377"}
+{"ts":"2026-04-03T22:35:40.228Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:35:50.261Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.734774, Lng: 0.482697 | Speed: 35km/h | RPM: 2194"}
+{"ts":"2026-04-03T22:35:50.346Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:36:00.121Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-03T22:36:00.165Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:36:00.264Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733917, Lng: 0.484111 | Speed: 35km/h | RPM: 2181"}
+{"ts":"2026-04-03T22:36:00.343Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-03T22:36:10.263Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Lat: 51.733288, Lng: 0.486161 | Speed: 39km/h | RPM: 2341"}
+{"ts":"2026-04-03T22:36:10.280Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}

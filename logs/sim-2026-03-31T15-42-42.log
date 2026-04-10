@@ -1,0 +1,2 @@
+{"ts":"2026-03-31T15:42:42.810Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":"Main Control Port"}
+{"ts":"2026-03-31T15:42:42.851Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 00 01 02 00 B1 7E"}

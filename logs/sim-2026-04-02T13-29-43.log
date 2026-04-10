@@ -1,0 +1,70 @@
+{"ts":"2026-04-02T13:29:43.436Z","level":"ERROR","device":"200000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:43.437Z","level":"INFO","device":"200000000001","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:43.581Z","level":"ERROR","device":"200000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:43.581Z","level":"INFO","device":"200000000002","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:43.726Z","level":"ERROR","device":"200000000003","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:43.727Z","level":"INFO","device":"200000000003","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:43.877Z","level":"ERROR","device":"200000000004","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:43.878Z","level":"INFO","device":"200000000004","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.030Z","level":"ERROR","device":"200000000005","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.031Z","level":"INFO","device":"200000000005","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.179Z","level":"ERROR","device":"200000000006","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.179Z","level":"INFO","device":"200000000006","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.329Z","level":"ERROR","device":"200000000007","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.329Z","level":"INFO","device":"200000000007","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.453Z","level":"ERROR","device":"200000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.453Z","level":"INFO","device":"200000000001","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:44.479Z","level":"ERROR","device":"200000000008","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.480Z","level":"INFO","device":"200000000008","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.594Z","level":"ERROR","device":"200000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.595Z","level":"INFO","device":"200000000002","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:44.631Z","level":"ERROR","device":"200000000009","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.631Z","level":"INFO","device":"200000000009","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.740Z","level":"ERROR","device":"200000000003","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.740Z","level":"INFO","device":"200000000003","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:44.783Z","level":"ERROR","device":"200000000010","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.783Z","level":"INFO","device":"200000000010","event":"RECONNECTING","detail":"OBD2 Backoff 1000ms"}
+{"ts":"2026-04-02T13:29:44.895Z","level":"ERROR","device":"200000000004","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:44.895Z","level":"INFO","device":"200000000004","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.043Z","level":"ERROR","device":"200000000005","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.043Z","level":"INFO","device":"200000000005","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.192Z","level":"ERROR","device":"200000000006","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.192Z","level":"INFO","device":"200000000006","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.343Z","level":"ERROR","device":"200000000007","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.343Z","level":"INFO","device":"200000000007","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.492Z","level":"ERROR","device":"200000000008","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.493Z","level":"INFO","device":"200000000008","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.642Z","level":"ERROR","device":"200000000009","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.642Z","level":"INFO","device":"200000000009","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:45.797Z","level":"ERROR","device":"200000000010","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:45.797Z","level":"INFO","device":"200000000010","event":"RECONNECTING","detail":"OBD2 Backoff 2000ms"}
+{"ts":"2026-04-02T13:29:46.465Z","level":"ERROR","device":"200000000001","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:46.465Z","level":"INFO","device":"200000000001","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:46.610Z","level":"ERROR","device":"200000000002","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:46.610Z","level":"INFO","device":"200000000002","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:46.752Z","level":"ERROR","device":"200000000003","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:46.752Z","level":"INFO","device":"200000000003","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:46.909Z","level":"ERROR","device":"200000000004","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:46.909Z","level":"INFO","device":"200000000004","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.059Z","level":"ERROR","device":"200000000005","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.061Z","level":"INFO","device":"200000000005","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.205Z","level":"ERROR","device":"200000000006","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.206Z","level":"INFO","device":"200000000006","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.356Z","level":"ERROR","device":"200000000007","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.357Z","level":"INFO","device":"200000000007","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.512Z","level":"ERROR","device":"200000000008","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.512Z","level":"INFO","device":"200000000008","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.661Z","level":"ERROR","device":"200000000009","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.662Z","level":"INFO","device":"200000000009","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+{"ts":"2026-04-02T13:29:47.814Z","level":"ERROR","device":"200000000010","event":"SOCKET_ERROR","detail":"ECONNREFUSED"}
+{"ts":"2026-04-02T13:29:47.814Z","level":"INFO","device":"200000000010","event":"RECONNECTING","detail":"OBD2 Backoff 4000ms"}
+
+[SUMMARY] Run duration: 8s
+[SUMMARY] GPS packets sent: 0
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-02T13-29-43.log

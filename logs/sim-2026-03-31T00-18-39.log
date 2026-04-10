@@ -1,0 +1,75 @@
+{"ts":"2026-03-31T00:18:39.498Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:18:39.527Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:39.642Z","level":"INFO","device":"868120100002","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:18:39.661Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:39.870Z","level":"INFO","device":"868120100003","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:18:39.944Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:49.494Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:49.506Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:49.639Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:49.648Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:49.789Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:49.799Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:49.897Z","level":"WARN","device":"868120100001","event":"LIVE_VIDEO_REQUEST","detail":"0x9101 Command Received"}
+{"ts":"2026-03-31T00:18:52.907Z","level":"WARN","device":"868120100001","event":"LIVE_VIDEO_REQUEST","detail":"0x9101 Command Received"}
+{"ts":"2026-03-31T00:18:59.488Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:18:59.493Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:59.497Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:59.507Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:59.640Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:18:59.641Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:59.649Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:59.658Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:59.787Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:18:59.790Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:18:59.796Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:18:59.803Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:09.495Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:09.507Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:09.643Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:09.652Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:09.790Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:09.803Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.494Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:19.495Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:19.508Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.516Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.641Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:19.643Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:19.652Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.664Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.793Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:19.794Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:19.801Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:19.810Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:29.500Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:29.509Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:29.644Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:29.656Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:29.799Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:29.832Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.496Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:39.501Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:39.593Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.594Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.644Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:39.644Z","level":"INFO","device":"868120100002","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:39.653Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.660Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.799Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:19:39.799Z","level":"INFO","device":"868120100003","event":"INCIDENT_ADAS_SENT","detail":"Triggered SuBiao 0x64 AI Alarm"}
+{"ts":"2026-03-31T00:19:39.808Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:39.816Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:19:42.928Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:19:42.930Z","level":"INFO","device":"868120100002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:19:42.930Z","level":"INFO","device":"868120100003","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 65s
+[SUMMARY] GPS packets sent: 9
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 18
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T00-18-39.log

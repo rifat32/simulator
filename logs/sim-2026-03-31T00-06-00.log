@@ -1,0 +1,47 @@
+{"ts":"2026-03-31T00:06:00.471Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:06:00.473Z","level":"INFO","device":"868120100001","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:06:00.474Z","level":"INFO","device":"868120100002","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:06:00.474Z","level":"INFO","device":"868120100002","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:06:00.593Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 00 01 02 00 B1 7E"}
+{"ts":"2026-03-31T00:06:00.593Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:00.594Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 00 01 02 00 B2 7E"}
+{"ts":"2026-03-31T00:06:00.594Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:00.599Z","level":"INFO","device":"868120100003","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:06:00.599Z","level":"INFO","device":"868120100003","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T00:06:00.609Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 00 01 02 00 B3 7E"}
+{"ts":"2026-03-31T00:06:00.609Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:20.294Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"51.5928,-0.2343 @ 105km/h"}
+{"ts":"2026-03-31T00:06:20.409Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 01 02 00 00 B1 7E"}
+{"ts":"2026-03-31T00:06:20.409Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:20.439Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"51.4917,-0.3038 @ 105km/h"}
+{"ts":"2026-03-31T00:06:20.449Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 01 02 00 00 B2 7E"}
+{"ts":"2026-03-31T00:06:20.449Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:20.605Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"51.4080,-0.5446 @ 105km/h"}
+{"ts":"2026-03-31T00:06:20.622Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 01 02 00 00 B3 7E"}
+{"ts":"2026-03-31T00:06:20.623Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:40.295Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"51.5969,-0.2397 @ 105km/h"}
+{"ts":"2026-03-31T00:06:40.361Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 02 02 00 00 B2 7E"}
+{"ts":"2026-03-31T00:06:40.362Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:40.441Z","level":"INFO","device":"868120100002","event":"GPS_SENT_0x0200","detail":"51.4914,-0.3123 @ 105km/h"}
+{"ts":"2026-03-31T00:06:40.532Z","level":"INFO","device":"868120100002","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 02 00 00 00 02 02 00 00 B1 7E"}
+{"ts":"2026-03-31T00:06:40.533Z","level":"INFO","device":"868120100002","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:40.608Z","level":"INFO","device":"868120100003","event":"GPS_SENT_0x0200","detail":"51.4028,-0.5436 @ 105km/h"}
+{"ts":"2026-03-31T00:06:40.646Z","level":"INFO","device":"868120100003","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 03 00 00 00 02 02 00 00 B0 7E"}
+{"ts":"2026-03-31T00:06:40.647Z","level":"INFO","device":"868120100003","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:06:48.533Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 91 01 00 14 86 81 20 10 00 01 01 34 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 31 00 00 02 00 00 A8 7E"}
+{"ts":"2026-03-31T00:07:00.301Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"51.6009,-0.2450 @ 105km/h"}
+{"ts":"2026-03-31T00:07:00.316Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 03 02 00 00 B3 7E"}
+{"ts":"2026-03-31T00:07:00.317Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"Received 0x8001 Response"}
+{"ts":"2026-03-31T00:07:00.367Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:07:00.368Z","level":"INFO","device":"868120100002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-31T00:07:00.368Z","level":"INFO","device":"868120100003","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 62s
+[SUMMARY] GPS packets sent: 7
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T00-06-00.log

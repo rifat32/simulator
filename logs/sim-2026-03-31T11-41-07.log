@@ -1,0 +1,22 @@
+{"ts":"2026-03-31T11:41:07.713Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T11:41:07.747Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target URL: 54.37.225.65:3378"}
+{"ts":"2026-03-31T11:41:07.748Z","level":"ERROR","device":"868120100001","event":"MEDIA_UPLOAD_FAIL","detail":"No Alarm ID saved. Cannot generate filename."}
+{"ts":"2026-03-31T11:41:27.708Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:41:27.711Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331114127000200"}
+{"ts":"2026-03-31T11:41:41.804Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignoring to focus on recorded files."}
+{"ts":"2026-03-31T11:41:47.709Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:41:47.710Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331114147000200"}
+{"ts":"2026-03-31T11:41:55.314Z","level":"INFO","device":"868120100001","event":"LIVE_VIDEO_IGNORED","detail":"Server requested Live Stream (0x9101), ignoring to focus on recorded files."}
+{"ts":"2026-03-31T11:42:07.712Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:42:07.713Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331114207000200"}
+{"ts":"2026-03-31T11:42:14.942Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 69s
+[SUMMARY] GPS packets sent: 3
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 3
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T11-41-07.log

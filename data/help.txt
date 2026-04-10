@@ -1,0 +1,11 @@
+curl -X POST http://54.37.225.65:4020/api/command \
+     -H "Content-Type: application/json" \
+     -d '{
+       "deviceId": "868120018681",
+       "commandType": "START_LIVE",
+       "parameters": {
+         "serverIP": "54.37.225.65",
+         "port": 3378,
+         "channel": 1
+       }
+     }'

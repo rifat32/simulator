@@ -1,0 +1,31 @@
+{"ts":"2026-03-31T00:26:32.006Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T00:26:32.023Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Alarm Attachment Upload Request) | Target URL: 54.37.225.65:3378"}
+{"ts":"2026-03-31T00:26:32.024Z","level":"INFO","device":"868120100001","event":"MEDIA_CONNECTING","detail":"Attempting TCP connection to Media Server at 54.37.225.65:3378..."}
+{"ts":"2026-03-31T00:26:32.028Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:32.038Z","level":"INFO","device":"868120100001","event":"MEDIA_CONNECTED","detail":"Connection established. Streaming payload for 0x9208 (Alarm Attachment Upload Request)."}
+{"ts":"2026-03-31T00:26:32.039Z","level":"INFO","device":"868120100001","event":"MEDIA_UPLOAD_COMPLETE","detail":"File upload finished. 100% delivered to 54.37.225.65:3378 in 15ms"}
+{"ts":"2026-03-31T00:26:41.994Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 1)"}
+{"ts":"2026-03-31T00:26:42.473Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:42.604Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:51.994Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T00:26:51.995Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 2)"}
+{"ts":"2026-03-31T00:26:52.002Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:52.019Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:52.024Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:26:52.524Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9101 (Live Video Stream Request) | Target URL: 54.37.225.65:3377"}
+{"ts":"2026-03-31T00:26:52.525Z","level":"INFO","device":"868120100001","event":"MEDIA_CONNECTING","detail":"Attempting TCP connection to Media Server at 54.37.225.65:3377..."}
+{"ts":"2026-03-31T00:26:52.534Z","level":"ERROR","device":"868120100001","event":"MEDIA_SOCKET_ERROR","detail":"Target: 54.37.225.65:3377 | Reason: connect ECONNREFUSED 54.37.225.65:3377"}
+{"ts":"2026-03-31T00:27:01.995Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (MediaID: 3)"}
+{"ts":"2026-03-31T00:27:02.005Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:27:02.011Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T00:27:07.777Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 38s
+[SUMMARY] GPS packets sent: 1
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 3
+[SUMMARY] Videos uploaded OK: 1
+[SUMMARY] Videos failed: 1
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T00-26-31.log

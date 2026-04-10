@@ -1,0 +1,39 @@
+{"ts":"2026-03-31T11:53:08.644Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T11:53:08.646Z","level":"INFO","device":"868120100001","event":"AUTH_SENT_0x0102","detail":"code: 123456"}
+{"ts":"2026-03-31T11:53:08.677Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 00 01 02 00 B1 7E"}
+{"ts":"2026-03-31T11:53:08.678Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:53:28.433Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:53:28.434Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331115328000500"}
+{"ts":"2026-03-31T11:53:28.568Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 01 02 00 00 B1 7E"}
+{"ts":"2026-03-31T11:53:28.568Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:53:28.574Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 02 02 00 00 B2 7E"}
+{"ts":"2026-03-31T11:53:28.575Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:53:48.432Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:53:48.434Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331115348000500"}
+{"ts":"2026-03-31T11:53:48.441Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 03 02 00 00 B3 7E"}
+{"ts":"2026-03-31T11:53:48.442Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:53:48.453Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 04 02 00 00 B4 7E"}
+{"ts":"2026-03-31T11:53:48.453Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:54:08.433Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:54:08.435Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331115408000500"}
+{"ts":"2026-03-31T11:54:08.444Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 05 02 00 00 B5 7E"}
+{"ts":"2026-03-31T11:54:08.444Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:54:08.449Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 06 02 00 00 B6 7E"}
+{"ts":"2026-03-31T11:54:08.456Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:54:28.437Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T11:54:28.438Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm with Hex ID: 00000000000000260331115428000500"}
+{"ts":"2026-03-31T11:54:28.452Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 07 02 00 00 B7 7E"}
+{"ts":"2026-03-31T11:54:28.456Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:54:28.457Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 08 02 00 00 B8 7E"}
+{"ts":"2026-03-31T11:54:28.457Z","level":"INFO","device":"868120100001","event":"SERVER_ACK","detail":"0x8001"}
+{"ts":"2026-03-31T11:54:38.762Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 92s
+[SUMMARY] GPS packets sent: 4
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 4
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T11-53-08.log

@@ -1,0 +1,210 @@
+{"ts":"2026-03-31T16:11:43.281Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-31T16:11:43.312Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 00 01 02 00 B1 7E"}
+{"ts":"2026-03-31T16:11:43.313Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0102 (Serial: 0) -> Success"}
+{"ts":"2026-03-31T16:12:03.272Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:12:03.274Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161203000500)"}
+{"ts":"2026-03-31T16:12:03.318Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 01 02 00 00 B1 7E"}
+{"ts":"2026-03-31T16:12:03.318Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1) -> Success"}
+{"ts":"2026-03-31T16:12:03.330Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 02 02 00 00 B2 7E"}
+{"ts":"2026-03-31T16:12:03.331Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2) -> Success"}
+{"ts":"2026-03-31T16:12:03.339Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 00 03 08 00 00 B9 7E 7E 92 08 00 51 86 81 20 10 00 01 00 01 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 12 03 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 32 30 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C3 7E"}
+{"ts":"2026-03-31T16:12:03.339Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 3) -> Success"}
+{"ts":"2026-03-31T16:12:03.340Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161203000500"}
+{"ts":"2026-03-31T16:12:03.340Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:12:03.340Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:12:03.380Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:12:03.478Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e80010005868120100001754b00040102008b7e"}
+{"ts":"2026-03-31T16:12:03.479Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161203000500.jpg"}
+{"ts":"2026-03-31T16:12:03.986Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161203000500.jpg"}
+{"ts":"2026-03-31T16:12:04.488Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161203000500.mp4"}
+{"ts":"2026-03-31T16:12:05.252Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161203000500.mp4"}
+{"ts":"2026-03-31T16:12:05.756Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2416ms"}
+{"ts":"2026-03-31T16:12:23.274Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:12:23.277Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161223000500)"}
+{"ts":"2026-03-31T16:12:23.285Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 01 68 02 00 00 D9 7E"}
+{"ts":"2026-03-31T16:12:23.285Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 360) -> Success"}
+{"ts":"2026-03-31T16:12:23.294Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 01 69 02 00 00 D8 7E"}
+{"ts":"2026-03-31T16:12:23.295Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 361) -> Success"}
+{"ts":"2026-03-31T16:12:23.299Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 01 6A 08 00 00 D1 7E"}
+{"ts":"2026-03-31T16:12:23.302Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 362) -> Success"}
+{"ts":"2026-03-31T16:12:23.393Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 92 08 00 51 86 81 20 10 00 01 00 02 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 12 23 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 32 32 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 E2 7E"}
+{"ts":"2026-03-31T16:12:23.394Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161223000500"}
+{"ts":"2026-03-31T16:12:23.394Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:12:23.394Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:12:23.411Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:12:23.424Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e800100058681201000014ad1016b010200407e"}
+{"ts":"2026-03-31T16:12:23.424Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161223000500.jpg"}
+{"ts":"2026-03-31T16:12:23.926Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161223000500.jpg"}
+{"ts":"2026-03-31T16:12:24.428Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161223000500.mp4"}
+{"ts":"2026-03-31T16:12:25.140Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161223000500.mp4"}
+{"ts":"2026-03-31T16:12:25.641Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2247ms"}
+{"ts":"2026-03-31T16:12:43.278Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:12:43.278Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161243000500)"}
+{"ts":"2026-03-31T16:12:43.347Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 02 CF 02 00 00 7D 01 7E"}
+{"ts":"2026-03-31T16:12:43.348Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 719) -> Success"}
+{"ts":"2026-03-31T16:12:43.355Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 02 D0 02 00 00 62 7E"}
+{"ts":"2026-03-31T16:12:43.356Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 720) -> Success"}
+{"ts":"2026-03-31T16:12:43.365Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 02 D1 08 00 00 69 7E 7E 92 08 00 51 86 81 20 10 00 01 00 03 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 12 43 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 32 34 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 85 7E"}
+{"ts":"2026-03-31T16:12:43.365Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 721) -> Success"}
+{"ts":"2026-03-31T16:12:43.366Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161243000500"}
+{"ts":"2026-03-31T16:12:43.366Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:12:43.366Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:12:43.377Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:12:43.398Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e800100058681201000019ab602d20102004d7e"}
+{"ts":"2026-03-31T16:12:43.399Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161243000500.jpg"}
+{"ts":"2026-03-31T16:12:43.903Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161243000500.jpg"}
+{"ts":"2026-03-31T16:12:44.408Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161243000500.mp4"}
+{"ts":"2026-03-31T16:12:45.109Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161243000500.mp4"}
+{"ts":"2026-03-31T16:12:45.613Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2247ms"}
+{"ts":"2026-03-31T16:13:03.279Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:13:03.280Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161303000500)"}
+{"ts":"2026-03-31T16:13:03.289Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 04 36 02 00 00 82 7E"}
+{"ts":"2026-03-31T16:13:03.289Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1078) -> Success"}
+{"ts":"2026-03-31T16:13:03.298Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 04 37 02 00 00 83 7E"}
+{"ts":"2026-03-31T16:13:03.298Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1079) -> Success"}
+{"ts":"2026-03-31T16:13:03.305Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 04 38 08 00 00 86 7E 7E 92 08 00 51 86 81 20 10 00 01 00 04 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 13 03 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 33 30 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C6 7E"}
+{"ts":"2026-03-31T16:13:03.306Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 1080) -> Success"}
+{"ts":"2026-03-31T16:13:03.306Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161303000500"}
+{"ts":"2026-03-31T16:13:03.306Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:13:03.306Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:13:03.318Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:13:03.356Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e800100058681201000016bca04390102002d7e"}
+{"ts":"2026-03-31T16:13:03.357Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161303000500.jpg"}
+{"ts":"2026-03-31T16:13:03.863Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161303000500.jpg"}
+{"ts":"2026-03-31T16:13:04.364Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161303000500.mp4"}
+{"ts":"2026-03-31T16:13:04.931Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161303000500.mp4"}
+{"ts":"2026-03-31T16:13:05.433Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2127ms"}
+{"ts":"2026-03-31T16:13:23.307Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:13:23.307Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161323000500)"}
+{"ts":"2026-03-31T16:13:23.377Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 05 9D 02 00 00 28 7E 7E 80 01 00 05 86 81 20 10 00 01 00 00 05 9E 02 00 00 2B 7E 7E 80 01 00 05 86 81 20 10 00 01 00 00 05 9F 08 00 00 20 7E 7E 92 08 00 51 86 81 20 10 00 01 00 05 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 13 23 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 33 32 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 E5 7E"}
+{"ts":"2026-03-31T16:13:23.378Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1437) -> Success"}
+{"ts":"2026-03-31T16:13:23.378Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1438) -> Success"}
+{"ts":"2026-03-31T16:13:23.378Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 1439) -> Success"}
+{"ts":"2026-03-31T16:13:23.408Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161323000500"}
+{"ts":"2026-03-31T16:13:23.409Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:13:23.409Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:13:23.419Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:13:23.438Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e80010005868120100001704405a0010200207e"}
+{"ts":"2026-03-31T16:13:23.438Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161323000500.jpg"}
+{"ts":"2026-03-31T16:13:23.950Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161323000500.jpg"}
+{"ts":"2026-03-31T16:13:24.478Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161323000500.mp4"}
+{"ts":"2026-03-31T16:13:25.038Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161323000500.mp4"}
+{"ts":"2026-03-31T16:13:25.542Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2134ms"}
+{"ts":"2026-03-31T16:13:43.313Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:13:43.314Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161343000500)"}
+{"ts":"2026-03-31T16:13:43.334Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 07 04 02 00 00 B3 7E"}
+{"ts":"2026-03-31T16:13:43.335Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1796) -> Success"}
+{"ts":"2026-03-31T16:13:43.342Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 07 05 02 00 00 B2 7E"}
+{"ts":"2026-03-31T16:13:43.342Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 1797) -> Success"}
+{"ts":"2026-03-31T16:13:43.352Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 07 06 08 00 00 BB 7E 7E 92 08 00 51 86 81 20 10 00 01 00 06 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 13 43 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 33 34 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 7E"}
+{"ts":"2026-03-31T16:13:43.353Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 1798) -> Success"}
+{"ts":"2026-03-31T16:13:43.359Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161343000500"}
+{"ts":"2026-03-31T16:13:43.359Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:13:43.359Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:13:43.369Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:13:43.380Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e8001000586812010000161e00707010200307e"}
+{"ts":"2026-03-31T16:13:43.380Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161343000500.jpg"}
+{"ts":"2026-03-31T16:13:43.884Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161343000500.jpg"}
+{"ts":"2026-03-31T16:13:44.389Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161343000500.mp4"}
+{"ts":"2026-03-31T16:13:44.957Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161343000500.mp4"}
+{"ts":"2026-03-31T16:13:45.459Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2100ms"}
+{"ts":"2026-03-31T16:14:03.316Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:14:03.316Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161403000500)"}
+{"ts":"2026-03-31T16:14:03.326Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 08 6B 02 00 00 D3 7E"}
+{"ts":"2026-03-31T16:14:03.327Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2155) -> Success"}
+{"ts":"2026-03-31T16:14:03.335Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 08 6C 02 00 00 D4 7E"}
+{"ts":"2026-03-31T16:14:03.335Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2156) -> Success"}
+{"ts":"2026-03-31T16:14:03.357Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 08 6D 08 00 00 DF 7E 7E 92 08 00 51 86 81 20 10 00 01 00 07 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 14 03 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 34 30 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C5 7E"}
+{"ts":"2026-03-31T16:14:03.357Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 2157) -> Success"}
+{"ts":"2026-03-31T16:14:03.357Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161403000500"}
+{"ts":"2026-03-31T16:14:03.357Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:14:03.357Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:14:03.451Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:14:03.463Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e80010005868120100001b30a086e0102006e7e"}
+{"ts":"2026-03-31T16:14:03.463Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161403000500.jpg"}
+{"ts":"2026-03-31T16:14:03.967Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161403000500.jpg"}
+{"ts":"2026-03-31T16:14:04.468Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161403000500.mp4"}
+{"ts":"2026-03-31T16:14:05.202Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161403000500.mp4"}
+{"ts":"2026-03-31T16:14:05.706Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2349ms"}
+{"ts":"2026-03-31T16:14:23.351Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:14:23.351Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161423000500)"}
+{"ts":"2026-03-31T16:14:23.380Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 09 D2 02 00 00 6B 7E"}
+{"ts":"2026-03-31T16:14:23.381Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2514) -> Success"}
+{"ts":"2026-03-31T16:14:23.415Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 09 D3 02 00 00 6A 7E 7E 80 01 00 05 86 81 20 10 00 01 00 00 09 D4 08 00 00 67 7E 7E 92 08 00 51 86 81 20 10 00 01 00 08 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 14 23 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 34 32 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 E8 7E"}
+{"ts":"2026-03-31T16:14:23.415Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2515) -> Success"}
+{"ts":"2026-03-31T16:14:23.415Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 2516) -> Success"}
+{"ts":"2026-03-31T16:14:23.415Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161423000500"}
+{"ts":"2026-03-31T16:14:23.416Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:14:23.416Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:14:23.425Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:14:23.436Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e8001000586812010000109ff09d50102009b7e"}
+{"ts":"2026-03-31T16:14:23.437Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161423000500.jpg"}
+{"ts":"2026-03-31T16:14:23.940Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161423000500.jpg"}
+{"ts":"2026-03-31T16:14:24.444Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161423000500.mp4"}
+{"ts":"2026-03-31T16:14:25.139Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161423000500.mp4"}
+{"ts":"2026-03-31T16:14:25.641Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2225ms"}
+{"ts":"2026-03-31T16:14:43.352Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:14:43.352Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161443000500)"}
+{"ts":"2026-03-31T16:14:43.366Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0B 39 02 00 00 82 7E"}
+{"ts":"2026-03-31T16:14:43.366Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2873) -> Success"}
+{"ts":"2026-03-31T16:14:43.371Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0B 3A 02 00 00 81 7E"}
+{"ts":"2026-03-31T16:14:43.371Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 2874) -> Success"}
+{"ts":"2026-03-31T16:14:43.381Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0B 3B 08 00 00 8A 7E 7E 92 08 00 51 86 81 20 10 00 01 00 09 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 14 43 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 34 34 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8F 7E"}
+{"ts":"2026-03-31T16:14:43.388Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 2875) -> Success"}
+{"ts":"2026-03-31T16:14:43.389Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161443000500"}
+{"ts":"2026-03-31T16:14:43.391Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:14:43.391Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:14:43.398Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:14:43.409Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e8001000586812010000171420b3c010200b57e"}
+{"ts":"2026-03-31T16:14:43.409Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161443000500.jpg"}
+{"ts":"2026-03-31T16:14:43.913Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161443000500.jpg"}
+{"ts":"2026-03-31T16:14:44.417Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161443000500.mp4"}
+{"ts":"2026-03-31T16:14:45.062Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161443000500.mp4"}
+{"ts":"2026-03-31T16:14:45.566Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2175ms"}
+{"ts":"2026-03-31T16:15:03.353Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:15:03.354Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161503000500)"}
+{"ts":"2026-03-31T16:15:03.366Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0C A0 02 00 00 1C 7E"}
+{"ts":"2026-03-31T16:15:03.366Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 3232) -> Success"}
+{"ts":"2026-03-31T16:15:03.377Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0C A1 02 00 00 1D 7E"}
+{"ts":"2026-03-31T16:15:03.379Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 3233) -> Success"}
+{"ts":"2026-03-31T16:15:03.386Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0C A2 08 00 00 14 7E 7E 92 08 00 51 86 81 20 10 00 01 00 0A 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 15 03 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 35 30 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C8 7E"}
+{"ts":"2026-03-31T16:15:03.386Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 3234) -> Success"}
+{"ts":"2026-03-31T16:15:03.386Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161503000500"}
+{"ts":"2026-03-31T16:15:03.387Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:15:03.387Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:15:03.399Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:15:03.415Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e80010005868120100001f7e60ca30102000f7e"}
+{"ts":"2026-03-31T16:15:03.415Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161503000500.jpg"}
+{"ts":"2026-03-31T16:15:03.921Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161503000500.jpg"}
+{"ts":"2026-03-31T16:15:04.432Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161503000500.mp4"}
+{"ts":"2026-03-31T16:15:05.408Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161503000500.mp4"}
+{"ts":"2026-03-31T16:15:05.912Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2525ms"}
+{"ts":"2026-03-31T16:15:23.355Z","level":"INFO","device":"868120100001","event":"GPS_SENT_0x0200","detail":"Location Updated"}
+{"ts":"2026-03-31T16:15:23.355Z","level":"INFO","device":"868120100001","event":"INCIDENT_ADAS_SENT","detail":"Triggered 0x64 Alarm + 0x0800 Media Notification (Hex ID: 00000000000000260331161523000500)"}
+{"ts":"2026-03-31T16:15:23.365Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0E 07 02 00 00 B9 7E"}
+{"ts":"2026-03-31T16:15:23.366Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 3591) -> Success"}
+{"ts":"2026-03-31T16:15:23.374Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0E 08 02 00 00 B6 7E"}
+{"ts":"2026-03-31T16:15:23.374Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0200 (Serial: 3592) -> Success"}
+{"ts":"2026-03-31T16:15:23.380Z","level":"INFO","device":"868120100001","event":"RX_HEX","detail":"7E 80 01 00 05 86 81 20 10 00 01 00 00 0E 09 08 00 00 BD 7E 7E 92 08 00 51 86 81 20 10 00 01 00 0B 0C 35 34 2E 33 37 2E 32 32 35 2E 36 35 0D 32 00 00 00 00 00 00 00 00 00 26 03 31 16 15 23 00 05 00 30 30 30 30 30 30 30 30 30 30 30 30 30 30 32 36 30 33 33 31 31 36 31 35 32 33 30 30 30 35 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 EB 7E"}
+{"ts":"2026-03-31T16:15:23.380Z","level":"INFO","device":"868120100001","event":"SERVER_ACK_DECODED","detail":"ACK for MSG 0x0800 (Serial: 3593) -> Success"}
+{"ts":"2026-03-31T16:15:23.380Z","level":"INFO","device":"868120100001","event":"MEDIA_REQ_PARSED","detail":"CMD: 0x9208 (Batch Media Upload) | Target: 54.37.225.65:3378 | Server expects files for Alarm ID: 00000000000000260331161523000500"}
+{"ts":"2026-03-31T16:15:23.380Z","level":"INFO","device":"868120100001","event":"MEDIA_TARGET","detail":"54.37.225.65:3378"}
+{"ts":"2026-03-31T16:15:23.380Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTING","detail":"Opening secondary TCP socket to 54.37.225.65:3378..."}
+{"ts":"2026-03-31T16:15:23.398Z","level":"INFO","device":"868120100001","event":"MEDIA_TCP_CONNECTED","detail":"Secondary socket opened, sending login..."}
+{"ts":"2026-03-31T16:15:23.419Z","level":"INFO","device":"868120100001","event":"MEDIA_LOGIN_RESP","detail":"7e800100058681201000016b560e0a010200887e"}
+{"ts":"2026-03-31T16:15:23.420Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[1/2] alarm_00000000000000260331161523000500.jpg"}
+{"ts":"2026-03-31T16:15:23.925Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[1/2] alarm_00000000000000260331161523000500.jpg"}
+{"ts":"2026-03-31T16:15:24.430Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_START","detail":"[2/2] alarm_00000000000000260331161523000500.mp4"}
+{"ts":"2026-03-31T16:15:24.987Z","level":"INFO","device":"868120100001","event":"UPLOAD_FILE_END","detail":"[2/2] alarm_00000000000000260331161523000500.mp4"}
+{"ts":"2026-03-31T16:15:25.492Z","level":"INFO","device":"868120100001","event":"BATCH_UPLOAD_COMPLETE","detail":"All files uploaded in 2112ms"}
+{"ts":"2026-03-31T16:15:30.631Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 229s
+[SUMMARY] GPS packets sent: 11
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 11
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-31T16-11-43.log

@@ -1,0 +1,122 @@
+{"ts":"2026-03-30T23:46:49.776Z","level":"INFO","device":"100000000001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-30T23:46:49.861Z","level":"INFO","device":"100000000002","event":"CONNECTED","detail":""}
+{"ts":"2026-03-30T23:46:54.698Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5898,-0.2302 @ 65mph"}
+{"ts":"2026-03-30T23:46:54.850Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4918,-0.2975 @ 65mph"}
+{"ts":"2026-03-30T23:46:59.698Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"collision_warning"}
+{"ts":"2026-03-30T23:46:59.698Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:46:59.705Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5908,-0.2316 @ 65mph"}
+{"ts":"2026-03-30T23:46:59.738Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.851Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"lane_departure"}
+{"ts":"2026-03-30T23:46:59.852Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:46:59.852Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4918,-0.2996 @ 65mph"}
+{"ts":"2026-03-30T23:46:59.879Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.887Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.893Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.916Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.924Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.933Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.937Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.938Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.949Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.955Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.962Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.975Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.976Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.984Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:46:59.997Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:47:00.016Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:47:00.042Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:47:00.079Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 228ms"}
+{"ts":"2026-03-30T23:47:00.110Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 412ms"}
+{"ts":"2026-03-30T23:47:05.055Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4917,-0.3017 @ 65mph"}
+{"ts":"2026-03-30T23:47:05.056Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5918,-0.2329 @ 65mph"}
+{"ts":"2026-03-30T23:47:10.055Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"lane_departure"}
+{"ts":"2026-03-30T23:47:10.055Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:10.057Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"harsh_brake"}
+{"ts":"2026-03-30T23:47:10.057Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:10.057Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4917,-0.3038 @ 65mph"}
+{"ts":"2026-03-30T23:47:10.058Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5928,-0.2343 @ 65mph"}
+{"ts":"2026-03-30T23:47:10.160Z","level":"WARN","device":"100000000002","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:47:10.163Z","level":"WARN","device":"100000000001","event":"BACKPRESSURE","detail":"intervals paused"}
+{"ts":"2026-03-30T23:47:10.349Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 292ms"}
+{"ts":"2026-03-30T23:47:10.354Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 299ms"}
+{"ts":"2026-03-30T23:47:15.348Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5939,-0.2356 @ 65mph"}
+{"ts":"2026-03-30T23:47:15.349Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4916,-0.3059 @ 65mph"}
+{"ts":"2026-03-30T23:47:20.349Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:47:20.349Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:20.349Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"speeding"}
+{"ts":"2026-03-30T23:47:20.349Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:20.350Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5949,-0.2370 @ 65mph"}
+{"ts":"2026-03-30T23:47:20.351Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4916,-0.3080 @ 65mph"}
+{"ts":"2026-03-30T23:47:20.441Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 92ms"}
+{"ts":"2026-03-30T23:47:20.441Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 92ms"}
+{"ts":"2026-03-30T23:47:25.354Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5959,-0.2383 @ 65mph"}
+{"ts":"2026-03-30T23:47:25.355Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4915,-0.3102 @ 65mph"}
+{"ts":"2026-03-30T23:47:30.354Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"lane_departure"}
+{"ts":"2026-03-30T23:47:30.354Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:30.354Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:47:30.354Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:30.354Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5969,-0.2397 @ 65mph"}
+{"ts":"2026-03-30T23:47:30.355Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4914,-0.3123 @ 65mph"}
+{"ts":"2026-03-30T23:47:30.435Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 81ms"}
+{"ts":"2026-03-30T23:47:30.435Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 81ms"}
+{"ts":"2026-03-30T23:47:35.357Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5979,-0.2410 @ 65mph"}
+{"ts":"2026-03-30T23:47:35.358Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4914,-0.3144 @ 65mph"}
+{"ts":"2026-03-30T23:47:40.355Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"collision_warning"}
+{"ts":"2026-03-30T23:47:40.355Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:40.356Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"harsh_brake"}
+{"ts":"2026-03-30T23:47:40.356Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:40.358Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5989,-0.2424 @ 65mph"}
+{"ts":"2026-03-30T23:47:40.359Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4913,-0.3165 @ 65mph"}
+{"ts":"2026-03-30T23:47:40.441Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 86ms"}
+{"ts":"2026-03-30T23:47:40.441Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 85ms"}
+{"ts":"2026-03-30T23:47:45.360Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.5999,-0.2437 @ 65mph"}
+{"ts":"2026-03-30T23:47:45.360Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4913,-0.3186 @ 65mph"}
+{"ts":"2026-03-30T23:47:50.361Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"speeding"}
+{"ts":"2026-03-30T23:47:50.361Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:50.361Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"harsh_brake"}
+{"ts":"2026-03-30T23:47:50.361Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:47:50.362Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6009,-0.2450 @ 65mph"}
+{"ts":"2026-03-30T23:47:50.362Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4912,-0.3207 @ 65mph"}
+{"ts":"2026-03-30T23:47:50.447Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 86ms"}
+{"ts":"2026-03-30T23:47:50.447Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 86ms"}
+{"ts":"2026-03-30T23:47:55.364Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6019,-0.2464 @ 65mph"}
+{"ts":"2026-03-30T23:47:55.364Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4912,-0.3228 @ 65mph"}
+{"ts":"2026-03-30T23:48:00.365Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"harsh_brake"}
+{"ts":"2026-03-30T23:48:00.366Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:00.366Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:48:00.366Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:00.366Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6030,-0.2477 @ 65mph"}
+{"ts":"2026-03-30T23:48:00.366Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4911,-0.3249 @ 65mph"}
+{"ts":"2026-03-30T23:48:00.444Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 78ms"}
+{"ts":"2026-03-30T23:48:00.444Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 78ms"}
+{"ts":"2026-03-30T23:48:05.370Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6040,-0.2491 @ 65mph"}
+{"ts":"2026-03-30T23:48:05.371Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4911,-0.3270 @ 65mph"}
+{"ts":"2026-03-30T23:48:10.371Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"lane_departure"}
+{"ts":"2026-03-30T23:48:10.371Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:10.372Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:48:10.372Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:10.372Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6050,-0.2504 @ 65mph"}
+{"ts":"2026-03-30T23:48:10.372Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4910,-0.3291 @ 65mph"}
+{"ts":"2026-03-30T23:48:10.450Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 79ms"}
+{"ts":"2026-03-30T23:48:10.450Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 78ms"}
+{"ts":"2026-03-30T23:48:15.375Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6060,-0.2518 @ 65mph"}
+{"ts":"2026-03-30T23:48:15.376Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4910,-0.3312 @ 65mph"}
+{"ts":"2026-03-30T23:48:20.373Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:48:20.374Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:20.374Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"harsh_brake"}
+{"ts":"2026-03-30T23:48:20.374Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:20.375Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6070,-0.2531 @ 65mph"}
+{"ts":"2026-03-30T23:48:20.376Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4909,-0.3333 @ 65mph"}
+{"ts":"2026-03-30T23:48:20.464Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 90ms"}
+{"ts":"2026-03-30T23:48:20.465Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 91ms"}
+{"ts":"2026-03-30T23:48:25.379Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6080,-0.2545 @ 65mph"}
+{"ts":"2026-03-30T23:48:25.380Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4908,-0.3354 @ 65mph"}
+{"ts":"2026-03-30T23:48:30.378Z","level":"INFO","device":"100000000001","event":"INCIDENT_0x0800_SENT","detail":"speeding"}
+{"ts":"2026-03-30T23:48:30.378Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:30.379Z","level":"INFO","device":"100000000002","event":"INCIDENT_0x0800_SENT","detail":"hard_acceleration"}
+{"ts":"2026-03-30T23:48:30.379Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_START","detail":"Packets: 667"}
+{"ts":"2026-03-30T23:48:30.379Z","level":"INFO","device":"100000000001","event":"GPS_SENT","detail":"51.6090,-0.2558 @ 65mph"}
+{"ts":"2026-03-30T23:48:30.379Z","level":"INFO","device":"100000000002","event":"GPS_SENT","detail":"51.4908,-0.3375 @ 65mph"}
+{"ts":"2026-03-30T23:48:30.453Z","level":"INFO","device":"100000000001","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 75ms"}
+{"ts":"2026-03-30T23:48:30.454Z","level":"INFO","device":"100000000002","event":"VIDEO_UPLOAD_0x0801_OK","detail":"100% in 75ms"}

@@ -1,0 +1,37 @@
+{"ts":"2026-03-30T23:52:39.713Z","level":"INFO","device":"868120100001","event":"CONNECTED","detail":""}
+{"ts":"2026-03-30T23:52:39.859Z","level":"INFO","device":"868120100002","event":"CONNECTED","detail":""}
+{"ts":"2026-03-30T23:52:40.012Z","level":"INFO","device":"868120100003","event":"CONNECTED","detail":""}
+{"ts":"2026-03-30T23:52:59.704Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.5928,-0.2343 @ 65mph"}
+{"ts":"2026-03-30T23:52:59.856Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4917,-0.3038 @ 65mph"}
+{"ts":"2026-03-30T23:53:00.006Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.4080,-0.5446 @ 65mph"}
+{"ts":"2026-03-30T23:53:19.709Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.5969,-0.2397 @ 65mph"}
+{"ts":"2026-03-30T23:53:19.860Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4914,-0.3123 @ 65mph"}
+{"ts":"2026-03-30T23:53:20.012Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.4028,-0.5436 @ 65mph"}
+{"ts":"2026-03-30T23:53:39.712Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.6009,-0.2450 @ 65mph"}
+{"ts":"2026-03-30T23:53:39.866Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4912,-0.3207 @ 65mph"}
+{"ts":"2026-03-30T23:53:40.019Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.3976,-0.5425 @ 65mph"}
+{"ts":"2026-03-30T23:53:59.715Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.6050,-0.2504 @ 65mph"}
+{"ts":"2026-03-30T23:53:59.870Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4910,-0.3291 @ 65mph"}
+{"ts":"2026-03-30T23:54:00.021Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.3924,-0.5414 @ 65mph"}
+{"ts":"2026-03-30T23:54:19.717Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.6090,-0.2558 @ 65mph"}
+{"ts":"2026-03-30T23:54:19.873Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4908,-0.3375 @ 65mph"}
+{"ts":"2026-03-30T23:54:20.027Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.3872,-0.5403 @ 65mph"}
+{"ts":"2026-03-30T23:54:39.721Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.6131,-0.2612 @ 65mph"}
+{"ts":"2026-03-30T23:54:39.875Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4906,-0.3459 @ 65mph"}
+{"ts":"2026-03-30T23:54:40.035Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.3820,-0.5393 @ 65mph"}
+{"ts":"2026-03-30T23:54:59.727Z","level":"INFO","device":"868120100001","event":"GPS_SENT","detail":"51.6171,-0.2666 @ 65mph"}
+{"ts":"2026-03-30T23:54:59.879Z","level":"INFO","device":"868120100002","event":"GPS_SENT","detail":"51.4904,-0.3543 @ 65mph"}
+{"ts":"2026-03-30T23:55:00.039Z","level":"INFO","device":"868120100003","event":"GPS_SENT","detail":"51.3768,-0.5382 @ 65mph"}
+{"ts":"2026-03-30T23:55:09.337Z","level":"INFO","device":"868120100001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-30T23:55:09.340Z","level":"INFO","device":"868120100002","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-03-30T23:55:09.340Z","level":"INFO","device":"868120100003","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 152s
+[SUMMARY] GPS packets sent: 21
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-03-30T23-52-39.log

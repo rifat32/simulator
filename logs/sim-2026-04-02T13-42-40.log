@@ -1,0 +1,83 @@
+{"ts":"2026-04-02T13:42:40.818Z","level":"INFO","device":"200000000001","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-02T13:42:40.831Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-02T13:42:40.965Z","level":"INFO","device":"200000000002","event":"OBD2_CONNECTED","detail":"Binary Mode"}
+{"ts":"2026-04-02T13:42:40.975Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8100 Registration Reply Received"}
+{"ts":"2026-04-02T13:42:41.335Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:42:41.488Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:42:55.817Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 45km/h | RPM: 2584"}
+{"ts":"2026-04-02T13:42:55.827Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:42:55.964Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 35km/h | RPM: 2219"}
+{"ts":"2026-04-02T13:42:55.975Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:10.813Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:43:10.814Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 40km/h | RPM: 2409"}
+{"ts":"2026-04-02T13:43:10.824Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:10.832Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:10.959Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:43:10.965Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 39km/h | RPM: 2347"}
+{"ts":"2026-04-02T13:43:10.967Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:10.977Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:25.817Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 38km/h | RPM: 2331"}
+{"ts":"2026-04-02T13:43:25.831Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:25.967Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 35km/h | RPM: 2198"}
+{"ts":"2026-04-02T13:43:25.979Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:40.815Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:43:40.817Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 39km/h | RPM: 2372"}
+{"ts":"2026-04-02T13:43:40.826Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:40.834Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:40.965Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:43:40.968Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 31km/h | RPM: 2029"}
+{"ts":"2026-04-02T13:43:40.978Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:41.067Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:55.823Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 42km/h | RPM: 2495"}
+{"ts":"2026-04-02T13:43:55.840Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:43:55.973Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 26km/h | RPM: 1842"}
+{"ts":"2026-04-02T13:43:55.992Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:10.820Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:44:10.824Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 41km/h | RPM: 2443"}
+{"ts":"2026-04-02T13:44:10.834Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:10.845Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:10.971Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:44:10.973Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 24km/h | RPM: 1758"}
+{"ts":"2026-04-02T13:44:10.982Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:10.989Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:25.830Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 44km/h | RPM: 2563"}
+{"ts":"2026-04-02T13:44:25.842Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:25.979Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 25km/h | RPM: 1795"}
+{"ts":"2026-04-02T13:44:25.993Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:40.819Z","level":"INFO","device":"200000000001","event":"DTC_SENT_0x0900","detail":"Injected Fault Code: P0300"}
+{"ts":"2026-04-02T13:44:40.822Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:44:40.831Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 42km/h | RPM: 2497"}
+{"ts":"2026-04-02T13:44:40.887Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:40.894Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:40.974Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:44:40.980Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 20km/h | RPM: 1615"}
+{"ts":"2026-04-02T13:44:40.984Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:40.995Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:55.834Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 38km/h | RPM: 2304"}
+{"ts":"2026-04-02T13:44:55.851Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:44:55.983Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 25km/h | RPM: 1785"}
+{"ts":"2026-04-02T13:44:55.996Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:10.823Z","level":"INFO","device":"200000000001","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:45:10.834Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:10.837Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 40km/h | RPM: 2415"}
+{"ts":"2026-04-02T13:45:10.846Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:10.977Z","level":"INFO","device":"200000000002","event":"HEARTBEAT_SENT","detail":"0x0002"}
+{"ts":"2026-04-02T13:45:10.985Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 25km/h | RPM: 1783"}
+{"ts":"2026-04-02T13:45:10.986Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:10.993Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:25.839Z","level":"INFO","device":"200000000001","event":"OBD2_SENT_0x0200","detail":"Speed: 38km/h | RPM: 2334"}
+{"ts":"2026-04-02T13:45:25.851Z","level":"INFO","device":"200000000001","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:25.987Z","level":"INFO","device":"200000000002","event":"OBD2_SENT_0x0200","detail":"Speed: 23km/h | RPM: 1705"}
+{"ts":"2026-04-02T13:45:25.997Z","level":"INFO","device":"200000000002","event":"SERVER_ACK","detail":"0x8001 Universal Reply Received"}
+{"ts":"2026-04-02T13:45:32.913Z","level":"INFO","device":"200000000001","event":"DISCONNECTED","detail":"clean stop"}
+{"ts":"2026-04-02T13:45:32.917Z","level":"INFO","device":"200000000002","event":"DISCONNECTED","detail":"clean stop"}
+
+[SUMMARY] Run duration: 174s
+[SUMMARY] GPS packets sent: 0
+[SUMMARY] OBD2 packets sent: 0
+[SUMMARY] Incidents fired: 0
+[SUMMARY] Videos uploaded OK: 0
+[SUMMARY] Videos failed: 0
+[SUMMARY] Tracker pings sent: 0
+[SUMMARY] Reconnections: 0
+[SUMMARY] Log file: logs/sim-2026-04-02T13-42-40.log

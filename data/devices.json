@@ -1,0 +1,902 @@
+[
+  {
+    "vehicleId": "VEH-001",
+    "dashcamId": "868120018681",
+    "obd2Id": "200000000001",
+    "trackerId": "300000000001"
+  },
+  {
+    "vehicleId": "VEH-002",
+    "dashcamId": "868120100002",
+    "obd2Id": "200000000002",
+    "trackerId": "300000000002"
+  },
+  {
+    "vehicleId": "VEH-003",
+    "dashcamId": "868120100003",
+    "obd2Id": "200000000003",
+    "trackerId": "300000000003"
+  },
+  {
+    "vehicleId": "VEH-004",
+    "dashcamId": "868120100004",
+    "obd2Id": "200000000004",
+    "trackerId": "300000000004"
+  },
+  {
+    "vehicleId": "VEH-005",
+    "dashcamId": "868120100005",
+    "obd2Id": "200000000005",
+    "trackerId": "300000000005"
+  },
+  {
+    "vehicleId": "VEH-006",
+    "dashcamId": "868120100006",
+    "obd2Id": "200000000006",
+    "trackerId": "300000000006"
+  },
+  {
+    "vehicleId": "VEH-007",
+    "dashcamId": "868120100007",
+    "obd2Id": "200000000007",
+    "trackerId": "300000000007"
+  },
+  {
+    "vehicleId": "VEH-008",
+    "dashcamId": "868120100008",
+    "obd2Id": "200000000008",
+    "trackerId": "300000000008"
+  },
+  {
+    "vehicleId": "VEH-009",
+    "dashcamId": "868120100009",
+    "obd2Id": "200000000009",
+    "trackerId": "300000000009"
+  },
+  {
+    "vehicleId": "VEH-010",
+    "dashcamId": "100000000010",
+    "obd2Id": "200000000010",
+    "trackerId": "300000000010"
+  },
+  {
+    "vehicleId": "VEH-011",
+    "dashcamId": "100000000011",
+    "obd2Id": "200000000011",
+    "trackerId": "300000000011"
+  },
+  {
+    "vehicleId": "VEH-012",
+    "dashcamId": "100000000012",
+    "obd2Id": "200000000012",
+    "trackerId": "300000000012"
+  },
+  {
+    "vehicleId": "VEH-013",
+    "dashcamId": "100000000013",
+    "obd2Id": "200000000013",
+    "trackerId": "300000000013"
+  },
+  {
+    "vehicleId": "VEH-014",
+    "dashcamId": "100000000014",
+    "obd2Id": "200000000014",
+    "trackerId": "300000000014"
+  },
+  {
+    "vehicleId": "VEH-015",
+    "dashcamId": "100000000015",
+    "obd2Id": "200000000015",
+    "trackerId": "300000000015"
+  },
+  {
+    "vehicleId": "VEH-016",
+    "dashcamId": "100000000016",
+    "obd2Id": "200000000016",
+    "trackerId": "300000000016"
+  },
+  {
+    "vehicleId": "VEH-017",
+    "dashcamId": "100000000017",
+    "obd2Id": "200000000017",
+    "trackerId": "300000000017"
+  },
+  {
+    "vehicleId": "VEH-018",
+    "dashcamId": "100000000018",
+    "obd2Id": "200000000018",
+    "trackerId": "300000000018"
+  },
+  {
+    "vehicleId": "VEH-019",
+    "dashcamId": "100000000019",
+    "obd2Id": "200000000019",
+    "trackerId": "300000000019"
+  },
+  {
+    "vehicleId": "VEH-020",
+    "dashcamId": "100000000020",
+    "obd2Id": "200000000020",
+    "trackerId": "300000000020"
+  },
+  {
+    "vehicleId": "VEH-021",
+    "dashcamId": "100000000021",
+    "obd2Id": "200000000021",
+    "trackerId": "300000000021"
+  },
+  {
+    "vehicleId": "VEH-022",
+    "dashcamId": "100000000022",
+    "obd2Id": "200000000022",
+    "trackerId": "300000000022"
+  },
+  {
+    "vehicleId": "VEH-023",
+    "dashcamId": "100000000023",
+    "obd2Id": "200000000023",
+    "trackerId": "300000000023"
+  },
+  {
+    "vehicleId": "VEH-024",
+    "dashcamId": "100000000024",
+    "obd2Id": "200000000024",
+    "trackerId": "300000000024"
+  },
+  {
+    "vehicleId": "VEH-025",
+    "dashcamId": "100000000025",
+    "obd2Id": "200000000025",
+    "trackerId": "300000000025"
+  },
+  {
+    "vehicleId": "VEH-026",
+    "dashcamId": "100000000026",
+    "obd2Id": "200000000026",
+    "trackerId": "300000000026"
+  },
+  {
+    "vehicleId": "VEH-027",
+    "dashcamId": "100000000027",
+    "obd2Id": "200000000027",
+    "trackerId": "300000000027"
+  },
+  {
+    "vehicleId": "VEH-028",
+    "dashcamId": "100000000028",
+    "obd2Id": "200000000028",
+    "trackerId": "300000000028"
+  },
+  {
+    "vehicleId": "VEH-029",
+    "dashcamId": "100000000029",
+    "obd2Id": "200000000029",
+    "trackerId": "300000000029"
+  },
+  {
+    "vehicleId": "VEH-030",
+    "dashcamId": "100000000030",
+    "obd2Id": "200000000030",
+    "trackerId": "300000000030"
+  },
+  {
+    "vehicleId": "VEH-031",
+    "dashcamId": "100000000031",
+    "obd2Id": "200000000031",
+    "trackerId": "300000000031"
+  },
+  {
+    "vehicleId": "VEH-032",
+    "dashcamId": "100000000032",
+    "obd2Id": "200000000032",
+    "trackerId": "300000000032"
+  },
+  {
+    "vehicleId": "VEH-033",
+    "dashcamId": "100000000033",
+    "obd2Id": "200000000033",
+    "trackerId": "300000000033"
+  },
+  {
+    "vehicleId": "VEH-034",
+    "dashcamId": "100000000034",
+    "obd2Id": "200000000034",
+    "trackerId": "300000000034"
+  },
+  {
+    "vehicleId": "VEH-035",
+    "dashcamId": "100000000035",
+    "obd2Id": "200000000035",
+    "trackerId": "300000000035"
+  },
+  {
+    "vehicleId": "VEH-036",
+    "dashcamId": "100000000036",
+    "obd2Id": "200000000036",
+    "trackerId": "300000000036"
+  },
+  {
+    "vehicleId": "VEH-037",
+    "dashcamId": "100000000037",
+    "obd2Id": "200000000037",
+    "trackerId": "300000000037"
+  },
+  {
+    "vehicleId": "VEH-038",
+    "dashcamId": "100000000038",
+    "obd2Id": "200000000038",
+    "trackerId": "300000000038"
+  },
+  {
+    "vehicleId": "VEH-039",
+    "dashcamId": "100000000039",
+    "obd2Id": "200000000039",
+    "trackerId": "300000000039"
+  },
+  {
+    "vehicleId": "VEH-040",
+    "dashcamId": "100000000040",
+    "obd2Id": "200000000040",
+    "trackerId": "300000000040"
+  },
+  {
+    "vehicleId": "VEH-041",
+    "dashcamId": "100000000041",
+    "obd2Id": "200000000041",
+    "trackerId": "300000000041"
+  },
+  {
+    "vehicleId": "VEH-042",
+    "dashcamId": "100000000042",
+    "obd2Id": "200000000042",
+    "trackerId": "300000000042"
+  },
+  {
+    "vehicleId": "VEH-043",
+    "dashcamId": "100000000043",
+    "obd2Id": "200000000043",
+    "trackerId": "300000000043"
+  },
+  {
+    "vehicleId": "VEH-044",
+    "dashcamId": "100000000044",
+    "obd2Id": "200000000044",
+    "trackerId": "300000000044"
+  },
+  {
+    "vehicleId": "VEH-045",
+    "dashcamId": "100000000045",
+    "obd2Id": "200000000045",
+    "trackerId": "300000000045"
+  },
+  {
+    "vehicleId": "VEH-046",
+    "dashcamId": "100000000046",
+    "obd2Id": "200000000046",
+    "trackerId": "300000000046"
+  },
+  {
+    "vehicleId": "VEH-047",
+    "dashcamId": "100000000047",
+    "obd2Id": "200000000047",
+    "trackerId": "300000000047"
+  },
+  {
+    "vehicleId": "VEH-048",
+    "dashcamId": "100000000048",
+    "obd2Id": "200000000048",
+    "trackerId": "300000000048"
+  },
+  {
+    "vehicleId": "VEH-049",
+    "dashcamId": "100000000049",
+    "obd2Id": "200000000049",
+    "trackerId": "300000000049"
+  },
+  {
+    "vehicleId": "VEH-050",
+    "dashcamId": "100000000050",
+    "obd2Id": "200000000050",
+    "trackerId": "300000000050"
+  },
+  {
+    "vehicleId": "VEH-051",
+    "dashcamId": "100000000051",
+    "obd2Id": "200000000051",
+    "trackerId": "300000000051"
+  },
+  {
+    "vehicleId": "VEH-052",
+    "dashcamId": "100000000052",
+    "obd2Id": "200000000052",
+    "trackerId": "300000000052"
+  },
+  {
+    "vehicleId": "VEH-053",
+    "dashcamId": "100000000053",
+    "obd2Id": "200000000053",
+    "trackerId": "300000000053"
+  },
+  {
+    "vehicleId": "VEH-054",
+    "dashcamId": "100000000054",
+    "obd2Id": "200000000054",
+    "trackerId": "300000000054"
+  },
+  {
+    "vehicleId": "VEH-055",
+    "dashcamId": "100000000055",
+    "obd2Id": "200000000055",
+    "trackerId": "300000000055"
+  },
+  {
+    "vehicleId": "VEH-056",
+    "dashcamId": "100000000056",
+    "obd2Id": "200000000056",
+    "trackerId": "300000000056"
+  },
+  {
+    "vehicleId": "VEH-057",
+    "dashcamId": "100000000057",
+    "obd2Id": "200000000057",
+    "trackerId": "300000000057"
+  },
+  {
+    "vehicleId": "VEH-058",
+    "dashcamId": "100000000058",
+    "obd2Id": "200000000058",
+    "trackerId": "300000000058"
+  },
+  {
+    "vehicleId": "VEH-059",
+    "dashcamId": "100000000059",
+    "obd2Id": "200000000059",
+    "trackerId": "300000000059"
+  },
+  {
+    "vehicleId": "VEH-060",
+    "dashcamId": "100000000060",
+    "obd2Id": "200000000060",
+    "trackerId": "300000000060"
+  },
+  {
+    "vehicleId": "VEH-061",
+    "dashcamId": "100000000061",
+    "obd2Id": "200000000061",
+    "trackerId": "300000000061"
+  },
+  {
+    "vehicleId": "VEH-062",
+    "dashcamId": "100000000062",
+    "obd2Id": "200000000062",
+    "trackerId": "300000000062"
+  },
+  {
+    "vehicleId": "VEH-063",
+    "dashcamId": "100000000063",
+    "obd2Id": "200000000063",
+    "trackerId": "300000000063"
+  },
+  {
+    "vehicleId": "VEH-064",
+    "dashcamId": "100000000064",
+    "obd2Id": "200000000064",
+    "trackerId": "300000000064"
+  },
+  {
+    "vehicleId": "VEH-065",
+    "dashcamId": "100000000065",
+    "obd2Id": "200000000065",
+    "trackerId": "300000000065"
+  },
+  {
+    "vehicleId": "VEH-066",
+    "dashcamId": "100000000066",
+    "obd2Id": "200000000066",
+    "trackerId": "300000000066"
+  },
+  {
+    "vehicleId": "VEH-067",
+    "dashcamId": "100000000067",
+    "obd2Id": "200000000067",
+    "trackerId": "300000000067"
+  },
+  {
+    "vehicleId": "VEH-068",
+    "dashcamId": "100000000068",
+    "obd2Id": "200000000068",
+    "trackerId": "300000000068"
+  },
+  {
+    "vehicleId": "VEH-069",
+    "dashcamId": "100000000069",
+    "obd2Id": "200000000069",
+    "trackerId": "300000000069"
+  },
+  {
+    "vehicleId": "VEH-070",
+    "dashcamId": "100000000070",
+    "obd2Id": "200000000070",
+    "trackerId": "300000000070"
+  },
+  {
+    "vehicleId": "VEH-071",
+    "dashcamId": "100000000071",
+    "obd2Id": "200000000071",
+    "trackerId": "300000000071"
+  },
+  {
+    "vehicleId": "VEH-072",
+    "dashcamId": "100000000072",
+    "obd2Id": "200000000072",
+    "trackerId": "300000000072"
+  },
+  {
+    "vehicleId": "VEH-073",
+    "dashcamId": "100000000073",
+    "obd2Id": "200000000073",
+    "trackerId": "300000000073"
+  },
+  {
+    "vehicleId": "VEH-074",
+    "dashcamId": "100000000074",
+    "obd2Id": "200000000074",
+    "trackerId": "300000000074"
+  },
+  {
+    "vehicleId": "VEH-075",
+    "dashcamId": "100000000075",
+    "obd2Id": "200000000075",
+    "trackerId": "300000000075"
+  },
+  {
+    "vehicleId": "VEH-076",
+    "dashcamId": "100000000076",
+    "obd2Id": "200000000076",
+    "trackerId": "300000000076"
+  },
+  {
+    "vehicleId": "VEH-077",
+    "dashcamId": "100000000077",
+    "obd2Id": "200000000077",
+    "trackerId": "300000000077"
+  },
+  {
+    "vehicleId": "VEH-078",
+    "dashcamId": "100000000078",
+    "obd2Id": "200000000078",
+    "trackerId": "300000000078"
+  },
+  {
+    "vehicleId": "VEH-079",
+    "dashcamId": "100000000079",
+    "obd2Id": "200000000079",
+    "trackerId": "300000000079"
+  },
+  {
+    "vehicleId": "VEH-080",
+    "dashcamId": "100000000080",
+    "obd2Id": "200000000080",
+    "trackerId": "300000000080"
+  },
+  {
+    "vehicleId": "VEH-081",
+    "dashcamId": "100000000081",
+    "obd2Id": "200000000081",
+    "trackerId": "300000000081"
+  },
+  {
+    "vehicleId": "VEH-082",
+    "dashcamId": "100000000082",
+    "obd2Id": "200000000082",
+    "trackerId": "300000000082"
+  },
+  {
+    "vehicleId": "VEH-083",
+    "dashcamId": "100000000083",
+    "obd2Id": "200000000083",
+    "trackerId": "300000000083"
+  },
+  {
+    "vehicleId": "VEH-084",
+    "dashcamId": "100000000084",
+    "obd2Id": "200000000084",
+    "trackerId": "300000000084"
+  },
+  {
+    "vehicleId": "VEH-085",
+    "dashcamId": "100000000085",
+    "obd2Id": "200000000085",
+    "trackerId": "300000000085"
+  },
+  {
+    "vehicleId": "VEH-086",
+    "dashcamId": "100000000086",
+    "obd2Id": "200000000086",
+    "trackerId": "300000000086"
+  },
+  {
+    "vehicleId": "VEH-087",
+    "dashcamId": "100000000087",
+    "obd2Id": "200000000087",
+    "trackerId": "300000000087"
+  },
+  {
+    "vehicleId": "VEH-088",
+    "dashcamId": "100000000088",
+    "obd2Id": "200000000088",
+    "trackerId": "300000000088"
+  },
+  {
+    "vehicleId": "VEH-089",
+    "dashcamId": "100000000089",
+    "obd2Id": "200000000089",
+    "trackerId": "300000000089"
+  },
+  {
+    "vehicleId": "VEH-090",
+    "dashcamId": "100000000090",
+    "obd2Id": "200000000090",
+    "trackerId": "300000000090"
+  },
+  {
+    "vehicleId": "VEH-091",
+    "dashcamId": "100000000091",
+    "obd2Id": "200000000091",
+    "trackerId": "300000000091"
+  },
+  {
+    "vehicleId": "VEH-092",
+    "dashcamId": "100000000092",
+    "obd2Id": "200000000092",
+    "trackerId": "300000000092"
+  },
+  {
+    "vehicleId": "VEH-093",
+    "dashcamId": "100000000093",
+    "obd2Id": "200000000093",
+    "trackerId": "300000000093"
+  },
+  {
+    "vehicleId": "VEH-094",
+    "dashcamId": "100000000094",
+    "obd2Id": "200000000094",
+    "trackerId": "300000000094"
+  },
+  {
+    "vehicleId": "VEH-095",
+    "dashcamId": "100000000095",
+    "obd2Id": "200000000095",
+    "trackerId": "300000000095"
+  },
+  {
+    "vehicleId": "VEH-096",
+    "dashcamId": "100000000096",
+    "obd2Id": "200000000096",
+    "trackerId": "300000000096"
+  },
+  {
+    "vehicleId": "VEH-097",
+    "dashcamId": "100000000097",
+    "obd2Id": "200000000097",
+    "trackerId": "300000000097"
+  },
+  {
+    "vehicleId": "VEH-098",
+    "dashcamId": "100000000098",
+    "obd2Id": "200000000098",
+    "trackerId": "300000000098"
+  },
+  {
+    "vehicleId": "VEH-099",
+    "dashcamId": "100000000099",
+    "obd2Id": "200000000099",
+    "trackerId": "300000000099"
+  },
+  {
+    "vehicleId": "VEH-100",
+    "dashcamId": "100000000100",
+    "obd2Id": "200000000100",
+    "trackerId": "300000000100"
+  },
+  {
+    "vehicleId": "VEH-101",
+    "dashcamId": "100000000101",
+    "obd2Id": "200000000101",
+    "trackerId": "300000000101"
+  },
+  {
+    "vehicleId": "VEH-102",
+    "dashcamId": "100000000102",
+    "obd2Id": "200000000102",
+    "trackerId": "300000000102"
+  },
+  {
+    "vehicleId": "VEH-103",
+    "dashcamId": "100000000103",
+    "obd2Id": "200000000103",
+    "trackerId": "300000000103"
+  },
+  {
+    "vehicleId": "VEH-104",
+    "dashcamId": "100000000104",
+    "obd2Id": "200000000104",
+    "trackerId": "300000000104"
+  },
+  {
+    "vehicleId": "VEH-105",
+    "dashcamId": "100000000105",
+    "obd2Id": "200000000105",
+    "trackerId": "300000000105"
+  },
+  {
+    "vehicleId": "VEH-106",
+    "dashcamId": "100000000106",
+    "obd2Id": "200000000106",
+    "trackerId": "300000000106"
+  },
+  {
+    "vehicleId": "VEH-107",
+    "dashcamId": "100000000107",
+    "obd2Id": "200000000107",
+    "trackerId": "300000000107"
+  },
+  {
+    "vehicleId": "VEH-108",
+    "dashcamId": "100000000108",
+    "obd2Id": "200000000108",
+    "trackerId": "300000000108"
+  },
+  {
+    "vehicleId": "VEH-109",
+    "dashcamId": "100000000109",
+    "obd2Id": "200000000109",
+    "trackerId": "300000000109"
+  },
+  {
+    "vehicleId": "VEH-110",
+    "dashcamId": "100000000110",
+    "obd2Id": "200000000110",
+    "trackerId": "300000000110"
+  },
+  {
+    "vehicleId": "VEH-111",
+    "dashcamId": "100000000111",
+    "obd2Id": "200000000111",
+    "trackerId": "300000000111"
+  },
+  {
+    "vehicleId": "VEH-112",
+    "dashcamId": "100000000112",
+    "obd2Id": "200000000112",
+    "trackerId": "300000000112"
+  },
+  {
+    "vehicleId": "VEH-113",
+    "dashcamId": "100000000113",
+    "obd2Id": "200000000113",
+    "trackerId": "300000000113"
+  },
+  {
+    "vehicleId": "VEH-114",
+    "dashcamId": "100000000114",
+    "obd2Id": "200000000114",
+    "trackerId": "300000000114"
+  },
+  {
+    "vehicleId": "VEH-115",
+    "dashcamId": "100000000115",
+    "obd2Id": "200000000115",
+    "trackerId": "300000000115"
+  },
+  {
+    "vehicleId": "VEH-116",
+    "dashcamId": "100000000116",
+    "obd2Id": "200000000116",
+    "trackerId": "300000000116"
+  },
+  {
+    "vehicleId": "VEH-117",
+    "dashcamId": "100000000117",
+    "obd2Id": "200000000117",
+    "trackerId": "300000000117"
+  },
+  {
+    "vehicleId": "VEH-118",
+    "dashcamId": "100000000118",
+    "obd2Id": "200000000118",
+    "trackerId": "300000000118"
+  },
+  {
+    "vehicleId": "VEH-119",
+    "dashcamId": "100000000119",
+    "obd2Id": "200000000119",
+    "trackerId": "300000000119"
+  },
+  {
+    "vehicleId": "VEH-120",
+    "dashcamId": "100000000120",
+    "obd2Id": "200000000120",
+    "trackerId": "300000000120"
+  },
+  {
+    "vehicleId": "VEH-121",
+    "dashcamId": "100000000121",
+    "obd2Id": "200000000121",
+    "trackerId": "300000000121"
+  },
+  {
+    "vehicleId": "VEH-122",
+    "dashcamId": "100000000122",
+    "obd2Id": "200000000122",
+    "trackerId": "300000000122"
+  },
+  {
+    "vehicleId": "VEH-123",
+    "dashcamId": "100000000123",
+    "obd2Id": "200000000123",
+    "trackerId": "300000000123"
+  },
+  {
+    "vehicleId": "VEH-124",
+    "dashcamId": "100000000124",
+    "obd2Id": "200000000124",
+    "trackerId": "300000000124"
+  },
+  {
+    "vehicleId": "VEH-125",
+    "dashcamId": "100000000125",
+    "obd2Id": "200000000125",
+    "trackerId": "300000000125"
+  },
+  {
+    "vehicleId": "VEH-126",
+    "dashcamId": "100000000126",
+    "obd2Id": "200000000126",
+    "trackerId": "300000000126"
+  },
+  {
+    "vehicleId": "VEH-127",
+    "dashcamId": "100000000127",
+    "obd2Id": "200000000127",
+    "trackerId": "300000000127"
+  },
+  {
+    "vehicleId": "VEH-128",
+    "dashcamId": "100000000128",
+    "obd2Id": "200000000128",
+    "trackerId": "300000000128"
+  },
+  {
+    "vehicleId": "VEH-129",
+    "dashcamId": "100000000129",
+    "obd2Id": "200000000129",
+    "trackerId": "300000000129"
+  },
+  {
+    "vehicleId": "VEH-130",
+    "dashcamId": "100000000130",
+    "obd2Id": "200000000130",
+    "trackerId": "300000000130"
+  },
+  {
+    "vehicleId": "VEH-131",
+    "dashcamId": "100000000131",
+    "obd2Id": "200000000131",
+    "trackerId": "300000000131"
+  },
+  {
+    "vehicleId": "VEH-132",
+    "dashcamId": "100000000132",
+    "obd2Id": "200000000132",
+    "trackerId": "300000000132"
+  },
+  {
+    "vehicleId": "VEH-133",
+    "dashcamId": "100000000133",
+    "obd2Id": "200000000133",
+    "trackerId": "300000000133"
+  },
+  {
+    "vehicleId": "VEH-134",
+    "dashcamId": "100000000134",
+    "obd2Id": "200000000134",
+    "trackerId": "300000000134"
+  },
+  {
+    "vehicleId": "VEH-135",
+    "dashcamId": "100000000135",
+    "obd2Id": "200000000135",
+    "trackerId": "300000000135"
+  },
+  {
+    "vehicleId": "VEH-136",
+    "dashcamId": "100000000136",
+    "obd2Id": "200000000136",
+    "trackerId": "300000000136"
+  },
+  {
+    "vehicleId": "VEH-137",
+    "dashcamId": "100000000137",
+    "obd2Id": "200000000137",
+    "trackerId": "300000000137"
+  },
+  {
+    "vehicleId": "VEH-138",
+    "dashcamId": "100000000138",
+    "obd2Id": "200000000138",
+    "trackerId": "300000000138"
+  },
+  {
+    "vehicleId": "VEH-139",
+    "dashcamId": "100000000139",
+    "obd2Id": "200000000139",
+    "trackerId": "300000000139"
+  },
+  {
+    "vehicleId": "VEH-140",
+    "dashcamId": "100000000140",
+    "obd2Id": "200000000140",
+    "trackerId": "300000000140"
+  },
+  {
+    "vehicleId": "VEH-141",
+    "dashcamId": "100000000141",
+    "obd2Id": "200000000141",
+    "trackerId": "300000000141"
+  },
+  {
+    "vehicleId": "VEH-142",
+    "dashcamId": "100000000142",
+    "obd2Id": "200000000142",
+    "trackerId": "300000000142"
+  },
+  {
+    "vehicleId": "VEH-143",
+    "dashcamId": "100000000143",
+    "obd2Id": "200000000143",
+    "trackerId": "300000000143"
+  },
+  {
+    "vehicleId": "VEH-144",
+    "dashcamId": "100000000144",
+    "obd2Id": "200000000144",
+    "trackerId": "300000000144"
+  },
+  {
+    "vehicleId": "VEH-145",
+    "dashcamId": "100000000145",
+    "obd2Id": "200000000145",
+    "trackerId": "300000000145"
+  },
+  {
+    "vehicleId": "VEH-146",
+    "dashcamId": "100000000146",
+    "obd2Id": "200000000146",
+    "trackerId": "300000000146"
+  },
+  {
+    "vehicleId": "VEH-147",
+    "dashcamId": "100000000147",
+    "obd2Id": "200000000147",
+    "trackerId": "300000000147"
+  },
+  {
+    "vehicleId": "VEH-148",
+    "dashcamId": "100000000148",
+    "obd2Id": "200000000148",
+    "trackerId": "300000000148"
+  },
+  {
+    "vehicleId": "VEH-149",
+    "dashcamId": "100000000149",
+    "obd2Id": "200000000149",
+    "trackerId": "300000000149"
+  },
+  {
+    "vehicleId": "VEH-150",
+    "dashcamId": "100000000150",
+    "obd2Id": "200000000150",
+    "trackerId": "300000000150"
+  }
+]

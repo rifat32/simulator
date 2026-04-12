@@ -57,6 +57,17 @@ class OBD2Simulator {
     this.heartbeatInterval = null;
     this.reconnectTimer = null;
     this.reconnectAttempt = 0;
+
+    // --- REALISTIC FLEET AI ---
+    // Start everyone with a base location so parked cars don't send null
+    this.currentLocation = { lat: this.routePoints[0].lat, lng: this.routePoints[0].lng };
+    
+    // Only 30% of vehicles are "defective" and allowed to send DTCs
+    this.isDefective = Math.random() < 0.30; 
+    
+    // States: "MOVING", "PARKED", "OFFLINE"
+    this.currentState = "MOVING"; 
+    this.realismTimer = null;
   }
 
   // --- JT/T 808 PROTOCOL ENGINE ---
@@ -187,25 +198,29 @@ class OBD2Simulator {
     clearInterval(this.interval);
     clearInterval(this.dtcInterval);
     clearInterval(this.heartbeatInterval);
+    clearInterval(this.realismTimer); // <--- Add this!
   }
 
   resumeIntervals() {
     this.pauseIntervals();
 
-    // 1. Send Location/OBD using the dynamic config interval
     const obdMs = (this.config.obdInterval || 15) * 1000;
     this.interval = setInterval(() => this.sendOBD2Data(), obdMs);
 
-    // 2. Send Heartbeat (0x0002) every 30 seconds
     this.heartbeatInterval = setInterval(() => this.sendHeartbeat(), 30000);
 
-    // 3. 🚨 FIX: Trigger DTCs using the exact interval and chance from config
+    // 🚨 1. Start the Realism Engine! (Checks state every 20 seconds)
+    this.realismTimer = setInterval(() => this.simulateRealism(), 20000);
+
+    // 🚨 2. Restrict DTCs to Defective Vehicles only
     const dtcMs = (this.config.dtcInterval || 60) * 1000;
-    const dtcProb = (this.config.dtcChance || 5) / 100; // Convert 5% to 0.05
+    const dtcProb = (this.config.dtcChance || 5) / 100;
 
     this.dtcInterval = setInterval(() => {
-      if (Math.random() <= dtcProb) {
-        this.sendDiagnosticCode();
+      if (this.isDefective && this.currentState !== "OFFLINE") {
+        if (Math.random() <= dtcProb) {
+          this.sendDiagnosticCode(); 
+        }
       }
     }, dtcMs);
   }
@@ -331,39 +346,63 @@ class OBD2Simulator {
     };
   }
 
+  simulateRealism() {
+    if (this.currentState === "OFFLINE") return; // Dead devices stay dead
+
+    const roll = Math.random();
+    if (this.currentState === "MOVING") {
+      if (roll < 0.15) { 
+        // 15% chance to Park
+        this.currentState = "PARKED";
+        logger.log("WARN", this.deviceId, "VEHICLE_PARKED", "Ignition OFF, GPS Locked.");
+      } else if (roll < 0.20) { 
+        // 5% chance to completely drop Offline
+        this.currentState = "OFFLINE";
+        logger.log("ERROR", this.deviceId, "COMM_LOST", "Device unplugged/Lost signal.");
+        this.stop(); // Kills the socket and timers entirely
+      }
+    } else if (this.currentState === "PARKED") {
+      if (roll < 0.40) { 
+        // 40% chance a parked car starts driving again
+        this.currentState = "MOVING";
+        logger.log("INFO", this.deviceId, "VEHICLE_MOVING", "Ignition ON, Driving resumed.");
+      }
+    }
+  }
+
   sendOBD2Data() {
-    // Dynamic Physics Updates for unique speeds per vehicle
-    this.speedKmh = Math.max(
-      0,
-      Math.min(100, this.speedKmh + (Math.random() - 0.5) * 10),
-    );
-    this.rpm = 800 + (this.speedKmh / 100) * 4000;
-    this.engineLoad = Math.min(100, (this.speedKmh / 100) * 100);
-    this.throttlePos = this.engineLoad;
-    this.coolantTemp = Math.max(
-      88,
-      Math.min(105, this.coolantTemp + (this.engineLoad > 60 ? 0.5 : -0.5)),
-    );
+    if (this.currentState === "OFFLINE") return;
 
-    // 🚨 1. Calculate the location first!
-    const location = this.interpolateLocation();
+    if (this.currentState === "PARKED") {
+      // Vehicle is stopped: 0 Speed, Engine Idling, Location frozen
+      this.speedKmh = 0;
+      this.rpm = 0; 
+      // Notice we DO NOT call interpolateLocation() here. The GPS stays the same!
+    } else {
+      // Vehicle is moving: Normal dynamic physics
+      this.speedKmh = Math.max(10, Math.min(100, this.speedKmh + (Math.random() - 0.5) * 10));
+      this.rpm = 800 + (this.speedKmh / 100) * 4000;
+      this.engineLoad = Math.min(100, (this.speedKmh / 100) * 100);
+      this.throttlePos = this.engineLoad;
+      this.coolantTemp = Math.max(88, Math.min(105, this.coolantTemp + (this.engineLoad > 60 ? 0.5 : -0.5)));
+      
+      // Advance the GPS coordinates along the route
+      this.currentLocation = this.interpolateLocation();
+    }
 
-    // 🚨 2. Pass it into the builder
-    const body = this.buildLocationAndObdBody(location);
+    const body = this.buildLocationAndObdBody(this.currentLocation);
     const packet = this.buildJT808Packet(0x0200, body);
 
     const ok = this.safeWrite(packet);
     if (ok) {
-      // 🚨 EXACT MATCHES FOR YOUR LOGGER:
       logger.inc("gpsPackets");
-      logger.inc("obdPackets");
-
-      // 🚨 3. Print the exact Lat/Lng to the terminal!
+      logger.inc("obdPackets"); 
+      
       logger.log(
         "INFO",
         this.deviceId,
         "OBD2_SENT_0x0200",
-        `Lat: ${location.lat.toFixed(6)}, Lng: ${location.lng.toFixed(6)} | Speed: ${Math.round(this.speedKmh)}km/h | RPM: ${Math.round(this.rpm)}`,
+        `[${this.currentState}] Lat: ${this.currentLocation.lat.toFixed(6)}, Lng: ${this.currentLocation.lng.toFixed(6)} | Speed: ${Math.round(this.speedKmh)}km/h`
       );
     }
   }

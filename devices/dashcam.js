@@ -143,6 +143,9 @@ class DashcamSimulator {
     this.incidentInterval = null;
     this.reconnectTimer = null;
     this.reconnectAttempt = 0;
+
+    // 🚨 NEW: Memory map to track which AI alarm we fired!
+    this.activeIncidents = {};
   }
 
   // ── JT808 Packet Builder ─────────────────────────────────────────────────
@@ -373,7 +376,10 @@ class DashcamSimulator {
         !ip || ip === "0.0.0.0" || ip === "127.0.0.1" ? this.host : ip;
       const mediaPort = tcpPort || this.port;
 
-      this._uploadBatch(mediaHost, mediaPort, alarmId16, alarmNo32);
+      // Pull the incident from memory so we know how to name the file!
+      const incident = this.activeIncidents[hexId];
+
+      this._uploadBatch(mediaHost, mediaPort, alarmId16, alarmNo32, incident);
     } catch (err) {
       logger.log("ERROR", this.deviceId, "9208_PARSE_ERROR", err.message);
     }
@@ -408,19 +414,28 @@ class DashcamSimulator {
   //   Bytes 58-61: dataLength as UInt32BE
   //   Bytes 62+  : raw file bytes (dataLength bytes)
   //
-  _uploadBatch(mediaHost, mediaPort, alarmId16, alarmNo32) {
+  // Add 'incident' to the method signature!
+  _uploadBatch(mediaHost, mediaPort, alarmId16, alarmNo32, incident) {
     const hexId = alarmId16.toString("hex").toUpperCase();
 
-    // File definitions — names must match what server built in its URL
-    // Image: type 0 = jpg, Video: type 2 = mp4
+    // Fallback just in case memory missed it
+    const safeIncident = incident || { module: 0x64, type: 0x01, channel: 64 };
+
+    // Build the dynamic name strings (e.g., Module 0x64 + Type 0x01 = "6401")
+    const alarmTypeStr =
+      safeIncident.module.toString(16) +
+      safeIncident.type.toString(16).padStart(2, "0");
+    const chStr = safeIncident.channel.toString();
+
+    // File definitions — names must exactly match what the server expects!
     const fileBatch = [
       {
-        name: `00_64_6401_00_${hexId}.jpg`,
+        name: `00_${chStr}_${alarmTypeStr}_00_${hexId}.jpg`,
         type: 0,
         buffer: MOCK_IMAGE_BUFFER,
       },
       {
-        name: `02_64_6401_03_${hexId}.mp4`,
+        name: `02_${chStr}_${alarmTypeStr}_03_${hexId}.mp4`,
         type: 2,
         buffer: MOCK_VIDEO_BUFFER,
       },
@@ -624,53 +639,93 @@ class DashcamSimulator {
     const mediaId = this.mediaIdCounter++;
     const bcdTime = getBcdTime();
 
-    // alarmId16: bytes 0-5 = phoneBcd, byte 6 = 0, bytes 7-12 = timestamp,
-    //            byte 13 = serial, byte 14 = attachCount, byte 15 = reserved
+    // 🚨 1. Massive list of all possible Jiangsu AI Alarms
+    const INCIDENTS = [
+      { module: 0x64, type: 0x01, name: "ADAS: Forward Collision", channel: 64 },
+      { module: 0x64, type: 0x02, name: "ADAS: Lane Departure", channel: 64 },
+      { module: 0x64, type: 0x03, name: "ADAS: Vehicle Too Close", channel: 64 },
+      { module: 0x64, type: 0x04, name: "ADAS: Pedestrian Collision", channel: 64 },
+      { module: 0x64, type: 0x05, name: "ADAS: Frequent Lane Change", channel: 64 },
+      { module: 0x64, type: 0x07, name: "ADAS: Obstacle Alarm", channel: 64 },
+      { module: 0x65, type: 0x01, name: "DSM: Fatigue Driving", channel: 65 },
+      { module: 0x65, type: 0x02, name: "DSM: Phone Call", channel: 65 },
+      { module: 0x65, type: 0x03, name: "DSM: Smoking", channel: 65 },
+      { module: 0x65, type: 0x04, name: "DSM: Distracted Driving", channel: 65 },
+      { module: 0x65, type: 0x05, name: "DSM: Abnormal Driver", channel: 65 },
+      { module: 0x67, type: 0x01, name: "BSD: Rear Approach", channel: 67 },
+      { module: 0x67, type: 0x02, name: "BSD: Left Rear Approach", channel: 67 },
+      { module: 0x67, type: 0x03, name: "BSD: Right Rear Approach", channel: 67 },
+    ];
+
+    // Pick a random incident!
+    const incident = INCIDENTS[Math.floor(Math.random() * INCIDENTS.length)];
+
     const alarmId16 = Buffer.alloc(16, 0);
     this.phoneBcd.copy(alarmId16, 0, 0, 6);
     alarmId16.writeUInt8(0, 6);
     bcdTime.copy(alarmId16, 7);
     alarmId16.writeUInt8(mediaId & 0xff, 13);
-    alarmId16.writeUInt8(fileBatch_attachCount(), 14); // 2 files
+    alarmId16.writeUInt8(fileBatch_attachCount(), 14);
     alarmId16.writeUInt8(0, 15);
 
     const hexId = alarmId16.toString("hex").toUpperCase();
 
-    // 47-byte ADAS payload (extension 0x64)
-    const adasPayload = Buffer.alloc(47, 0);
-    adasPayload.writeUInt32BE(mediaId, 0);
-    adasPayload.writeUInt8(0x00, 4);
-    adasPayload.writeUInt8(0x01, 5); // alarm type: FCW
-    adasPayload.writeUInt8(0x01, 6); // level
-    adasPayload.writeUInt8(31, 7);
-    adasPayload.writeUInt8(10, 8);
-    adasPayload.writeUInt8(this.speedKmh & 0xff, 12);
+    // Save this incident to memory so the video uploader knows how to name the file!
+    this.activeIncidents[hexId] = incident;
+
+    // 🚨 2. Build the exact payload required by the Jiangsu Standard
+    let payload;
     const loc = this.interpolateLocation();
-    adasPayload.writeUInt32BE(Math.round(Math.abs(loc.lat) * 1e6), 15);
-    adasPayload.writeUInt32BE(Math.round(Math.abs(loc.lng) * 1e6), 19);
-    bcdTime.copy(adasPayload, 23);
-    adasPayload.writeUInt16BE(0x0401, 29);
-    alarmId16.copy(adasPayload, 31);
+    const latSafe = Math.round(Math.abs(loc.lat) * 1e6);
+    const lngSafe = Math.round(Math.abs(loc.lng) * 1e6);
 
-    const adasBlock = Buffer.alloc(49);
-    adasBlock.writeUInt8(0x64, 0);
-    adasBlock.writeUInt8(47, 1);
-    adasPayload.copy(adasBlock, 2);
+    if (incident.module === 0x64 || incident.module === 0x65) {
+      // ADAS (0x64) and DSM (0x65) both use 47-byte payloads
+      payload = Buffer.alloc(47, 0);
+      payload.writeUInt32BE(mediaId, 0);
+      payload.writeUInt8(0x00, 4); // Flag (0x00 Unavailable)
+      payload.writeUInt8(incident.type, 5);
+      payload.writeUInt8(0x01, 6); // Level 1 Alarm
+      payload.writeUInt8(this.speedKmh & 0xff, 12);
+      payload.writeUInt16BE(0, 13); // Elevation
+      payload.writeUInt32BE(latSafe, 15);
+      payload.writeUInt32BE(lngSafe, 19);
+      bcdTime.copy(payload, 23);
+      payload.writeUInt16BE(0x0401, 29); // Vehicle Status
+      alarmId16.copy(payload, 31);
+    } else if (incident.module === 0x67) {
+      // BSD (0x67) uses a 41-byte payload
+      payload = Buffer.alloc(41, 0);
+      payload.writeUInt32BE(mediaId, 0);
+      payload.writeUInt8(0x00, 4);
+      payload.writeUInt8(incident.type, 5);
+      payload.writeUInt8(this.speedKmh & 0xff, 6);
+      payload.writeUInt16BE(0, 7);
+      payload.writeUInt32BE(latSafe, 9);
+      payload.writeUInt32BE(lngSafe, 13);
+      bcdTime.copy(payload, 17);
+      payload.writeUInt16BE(0x0401, 23);
+      alarmId16.copy(payload, 25);
+    }
 
-    // 0x0200 location with alarm flag + ADAS extension
+    const extensionBlock = Buffer.alloc(2 + payload.length);
+    extensionBlock.writeUInt8(incident.module, 0);
+    extensionBlock.writeUInt8(payload.length, 1);
+    payload.copy(extensionBlock, 2);
+
     const alarmFlag = 1 << 18;
     const locBody = this.buildLocationBody(alarmFlag);
     this.safeWrite(
-      this.buildJT808Packet(0x0200, Buffer.concat([locBody, adasBlock])),
+      this.buildJT808Packet(0x0200, Buffer.concat([locBody, extensionBlock])),
     );
 
-    // 0x0800 media event notification — triggers server to send 0x9208
+    // 🚨 3. Send 0x0800 media notification using the dynamic AI channel (64 or 65)
     const mediaBody = Buffer.alloc(8);
     mediaBody.writeUInt32BE(mediaId, 0);
-    mediaBody.writeUInt8(2, 4); // type: video
-    mediaBody.writeUInt8(4, 5); // format: MP4
-    mediaBody.writeUInt8(3, 6); // event: alarm
-    mediaBody.writeUInt8(1, 7); // channel: 1
+    mediaBody.writeUInt8(2, 4);
+    mediaBody.writeUInt8(4, 5);
+    mediaBody.writeUInt8(3, 6);
+    mediaBody.writeUInt8(incident.channel, 7);
     this.safeWrite(this.buildJT808Packet(0x0800, mediaBody));
 
     logger.inc("incidentsFired");
@@ -678,7 +733,7 @@ class DashcamSimulator {
       "INFO",
       this.deviceId,
       "INCIDENT_SENT",
-      `mediaId=${mediaId} alarmId=${hexId}`,
+      `[${incident.name}] mediaId=${mediaId}`,
     );
   }
 
